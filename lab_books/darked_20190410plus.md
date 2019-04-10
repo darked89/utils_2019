@@ -1,7 +1,7 @@
 ## 20190410
 
 **Tasks list**
-* [ ]  test
+* [x]  test
 * [ ]  Trello 
     * [ ]  MAB_IT 
         * [ ]  LDAP check
