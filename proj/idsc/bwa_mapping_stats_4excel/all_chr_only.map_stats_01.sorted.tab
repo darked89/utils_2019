@@ -1,0 +1,570 @@
+idsc-10c_20190430.bam.stats	1st_fragments:	11189054
+idsc-06p_20190430.bam.stats	1st_fragments:	12241790
+idsc-10a_20190430.bam.stats	1st_fragments:	12768418
+idsc-06b_20190430.bam.stats	1st_fragments:	14509292
+idsc-10p_20190430.bam.stats	1st_fragments:	14746612
+idsc-06c_20190430.bam.stats	1st_fragments:	15359302
+idsc-07b_20190430.bam.stats	1st_fragments:	16125082
+idsc-07p_20190430.bam.stats	1st_fragments:	16928602
+idsc-07a_bd_exo_mseq_20190424.bam.stats	1st_fragments:	17282384
+idsc-07p_bd_exo_mseq_20190424.bam.stats	1st_fragments:	19915752
+idsc-06a_20190430.bam.stats	1st_fragments:	20907811
+idsc-13a_20190430.bam.stats	1st_fragments:	8306560
+idsc-07a_20190430.bam.stats	1st_fragments:	8341733
+idsc-13b_20190430.bam.stats	1st_fragments:	8633482
+idsc-13p_20190430.bam.stats	1st_fragments:	9288860
+idsc-07a_bd_exo_mseq_20190424.bam.stats	average_first_fragment_length:	75
+idsc-07p_bd_exo_mseq_20190424.bam.stats	average_first_fragment_length:	75
+idsc-06a_20190430.bam.stats	average_first_fragment_length:	76
+idsc-06b_20190430.bam.stats	average_first_fragment_length:	76
+idsc-06c_20190430.bam.stats	average_first_fragment_length:	76
+idsc-06p_20190430.bam.stats	average_first_fragment_length:	76
+idsc-07a_20190430.bam.stats	average_first_fragment_length:	76
+idsc-07b_20190430.bam.stats	average_first_fragment_length:	76
+idsc-07p_20190430.bam.stats	average_first_fragment_length:	76
+idsc-10a_20190430.bam.stats	average_first_fragment_length:	76
+idsc-10c_20190430.bam.stats	average_first_fragment_length:	76
+idsc-10p_20190430.bam.stats	average_first_fragment_length:	76
+idsc-13a_20190430.bam.stats	average_first_fragment_length:	76
+idsc-13b_20190430.bam.stats	average_first_fragment_length:	76
+idsc-13p_20190430.bam.stats	average_first_fragment_length:	76
+idsc-07a_bd_exo_mseq_20190424.bam.stats	average_last_fragment_length:	75
+idsc-07p_bd_exo_mseq_20190424.bam.stats	average_last_fragment_length:	75
+idsc-06a_20190430.bam.stats	average_last_fragment_length:	76
+idsc-06b_20190430.bam.stats	average_last_fragment_length:	76
+idsc-06c_20190430.bam.stats	average_last_fragment_length:	76
+idsc-06p_20190430.bam.stats	average_last_fragment_length:	76
+idsc-07a_20190430.bam.stats	average_last_fragment_length:	76
+idsc-07b_20190430.bam.stats	average_last_fragment_length:	76
+idsc-07p_20190430.bam.stats	average_last_fragment_length:	76
+idsc-10a_20190430.bam.stats	average_last_fragment_length:	76
+idsc-10c_20190430.bam.stats	average_last_fragment_length:	76
+idsc-10p_20190430.bam.stats	average_last_fragment_length:	76
+idsc-13a_20190430.bam.stats	average_last_fragment_length:	76
+idsc-13b_20190430.bam.stats	average_last_fragment_length:	76
+idsc-13p_20190430.bam.stats	average_last_fragment_length:	76
+idsc-07a_bd_exo_mseq_20190424.bam.stats	average_length:	75
+idsc-07p_bd_exo_mseq_20190424.bam.stats	average_length:	75
+idsc-06a_20190430.bam.stats	average_length:	76
+idsc-06b_20190430.bam.stats	average_length:	76
+idsc-06c_20190430.bam.stats	average_length:	76
+idsc-06p_20190430.bam.stats	average_length:	76
+idsc-07a_20190430.bam.stats	average_length:	76
+idsc-07b_20190430.bam.stats	average_length:	76
+idsc-07p_20190430.bam.stats	average_length:	76
+idsc-10a_20190430.bam.stats	average_length:	76
+idsc-10c_20190430.bam.stats	average_length:	76
+idsc-10p_20190430.bam.stats	average_length:	76
+idsc-13a_20190430.bam.stats	average_length:	76
+idsc-13b_20190430.bam.stats	average_length:	76
+idsc-13p_20190430.bam.stats	average_length:	76
+idsc-06b_20190430.bam.stats	average_quality:	34.2
+idsc-07a_20190430.bam.stats	average_quality:	34.2
+idsc-10p_20190430.bam.stats	average_quality:	34.2
+idsc-06a_20190430.bam.stats	average_quality:	34.3
+idsc-06c_20190430.bam.stats	average_quality:	34.3
+idsc-06p_20190430.bam.stats	average_quality:	34.3
+idsc-07b_20190430.bam.stats	average_quality:	34.3
+idsc-07p_20190430.bam.stats	average_quality:	34.3
+idsc-10a_20190430.bam.stats	average_quality:	34.3
+idsc-10c_20190430.bam.stats	average_quality:	34.3
+idsc-13a_20190430.bam.stats	average_quality:	34.3
+idsc-13b_20190430.bam.stats	average_quality:	34.3
+idsc-13p_20190430.bam.stats	average_quality:	34.3
+idsc-07a_bd_exo_mseq_20190424.bam.stats	average_quality:	35.1
+idsc-07p_bd_exo_mseq_20190424.bam.stats	average_quality:	35.1
+idsc-06a_20190430.bam.stats	bases_duplicated:	0
+idsc-06b_20190430.bam.stats	bases_duplicated:	0
+idsc-06c_20190430.bam.stats	bases_duplicated:	0
+idsc-06p_20190430.bam.stats	bases_duplicated:	0
+idsc-07a_20190430.bam.stats	bases_duplicated:	0
+idsc-07a_bd_exo_mseq_20190424.bam.stats	bases_duplicated:	0
+idsc-07b_20190430.bam.stats	bases_duplicated:	0
+idsc-07p_20190430.bam.stats	bases_duplicated:	0
+idsc-07p_bd_exo_mseq_20190424.bam.stats	bases_duplicated:	0
+idsc-10a_20190430.bam.stats	bases_duplicated:	0
+idsc-10c_20190430.bam.stats	bases_duplicated:	0
+idsc-10p_20190430.bam.stats	bases_duplicated:	0
+idsc-13a_20190430.bam.stats	bases_duplicated:	0
+idsc-13b_20190430.bam.stats	bases_duplicated:	0
+idsc-13p_20190430.bam.stats	bases_duplicated:	0
+idsc-13a_20190430.bam.stats	bases_mapped:	1257153696	#_ignores_clipping
+idsc-07a_20190430.bam.stats	bases_mapped:	1260409536	#_ignores_clipping
+idsc-13b_20190430.bam.stats	bases_mapped:	1307889928	#_ignores_clipping
+idsc-13p_20190430.bam.stats	bases_mapped:	1407156720	#_ignores_clipping
+idsc-10c_20190430.bam.stats	bases_mapped:	1691706268	#_ignores_clipping
+idsc-06p_20190430.bam.stats	bases_mapped:	1853753544	#_ignores_clipping
+idsc-10a_20190430.bam.stats	bases_mapped:	1933066992	#_ignores_clipping
+idsc-06b_20190430.bam.stats	bases_mapped:	2193821016	#_ignores_clipping
+idsc-10p_20190430.bam.stats	bases_mapped:	2232596596	#_ignores_clipping
+idsc-06c_20190430.bam.stats	bases_mapped:	2325735432	#_ignores_clipping
+idsc-07b_20190430.bam.stats	bases_mapped:	2439800792	#_ignores_clipping
+idsc-07p_20190430.bam.stats	bases_mapped:	2562931660	#_ignores_clipping
+idsc-07a_bd_exo_mseq_20190424.bam.stats	bases_mapped:	2590105166	#_ignores_clipping
+idsc-07p_bd_exo_mseq_20190424.bam.stats	bases_mapped:	2981755754	#_ignores_clipping
+idsc-06a_20190430.bam.stats	bases_mapped:	3162738936	#_ignores_clipping
+idsc-13a_20190430.bam.stats	bases_mapped_(cigar):	1250265157	#_more_accurate
+idsc-07a_20190430.bam.stats	bases_mapped_(cigar):	1253325191	#_more_accurate
+idsc-13b_20190430.bam.stats	bases_mapped_(cigar):	1299986451	#_more_accurate
+idsc-13p_20190430.bam.stats	bases_mapped_(cigar):	1399733929	#_more_accurate
+idsc-10c_20190430.bam.stats	bases_mapped_(cigar):	1682797102	#_more_accurate
+idsc-06p_20190430.bam.stats	bases_mapped_(cigar):	1842932556	#_more_accurate
+idsc-10a_20190430.bam.stats	bases_mapped_(cigar):	1922893444	#_more_accurate
+idsc-06b_20190430.bam.stats	bases_mapped_(cigar):	2181069760	#_more_accurate
+idsc-10p_20190430.bam.stats	bases_mapped_(cigar):	2220577317	#_more_accurate
+idsc-06c_20190430.bam.stats	bases_mapped_(cigar):	2313695576	#_more_accurate
+idsc-07b_20190430.bam.stats	bases_mapped_(cigar):	2426047882	#_more_accurate
+idsc-07p_20190430.bam.stats	bases_mapped_(cigar):	2548819471	#_more_accurate
+idsc-07a_bd_exo_mseq_20190424.bam.stats	bases_mapped_(cigar):	2570740549	#_more_accurate
+idsc-07p_bd_exo_mseq_20190424.bam.stats	bases_mapped_(cigar):	2959422185	#_more_accurate
+idsc-06a_20190430.bam.stats	bases_mapped_(cigar):	3144608713	#_more_accurate
+idsc-06a_20190430.bam.stats	bases_trimmed:	0
+idsc-06b_20190430.bam.stats	bases_trimmed:	0
+idsc-06c_20190430.bam.stats	bases_trimmed:	0
+idsc-06p_20190430.bam.stats	bases_trimmed:	0
+idsc-07a_20190430.bam.stats	bases_trimmed:	0
+idsc-07a_bd_exo_mseq_20190424.bam.stats	bases_trimmed:	0
+idsc-07b_20190430.bam.stats	bases_trimmed:	0
+idsc-07p_20190430.bam.stats	bases_trimmed:	0
+idsc-07p_bd_exo_mseq_20190424.bam.stats	bases_trimmed:	0
+idsc-10a_20190430.bam.stats	bases_trimmed:	0
+idsc-10c_20190430.bam.stats	bases_trimmed:	0
+idsc-10p_20190430.bam.stats	bases_trimmed:	0
+idsc-13a_20190430.bam.stats	bases_trimmed:	0
+idsc-13b_20190430.bam.stats	bases_trimmed:	0
+idsc-13p_20190430.bam.stats	bases_trimmed:	0
+idsc-06p_20190430.bam.stats	error_rate:	2.885794e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-07b_20190430.bam.stats	error_rate:	2.891100e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-13b_20190430.bam.stats	error_rate:	2.892314e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-06a_20190430.bam.stats	error_rate:	2.920308e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-10a_20190430.bam.stats	error_rate:	2.930404e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-06c_20190430.bam.stats	error_rate:	2.952268e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-10p_20190430.bam.stats	error_rate:	2.994628e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-13p_20190430.bam.stats	error_rate:	2.997171e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-07p_20190430.bam.stats	error_rate:	3.002664e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-13a_20190430.bam.stats	error_rate:	3.012810e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-06b_20190430.bam.stats	error_rate:	3.038291e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-10c_20190430.bam.stats	error_rate:	3.060980e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-07a_20190430.bam.stats	error_rate:	3.144359e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-07a_bd_exo_mseq_20190424.bam.stats	error_rate:	4.118031e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-07p_bd_exo_mseq_20190424.bam.stats	error_rate:	4.247718e-03	#_mismatches_to_bases_mapped_(cigar)
+idsc-06a_20190430.bam.stats	filtered_sequences:	0
+idsc-06b_20190430.bam.stats	filtered_sequences:	0
+idsc-06c_20190430.bam.stats	filtered_sequences:	0
+idsc-06p_20190430.bam.stats	filtered_sequences:	0
+idsc-07a_20190430.bam.stats	filtered_sequences:	0
+idsc-07a_bd_exo_mseq_20190424.bam.stats	filtered_sequences:	0
+idsc-07b_20190430.bam.stats	filtered_sequences:	0
+idsc-07p_20190430.bam.stats	filtered_sequences:	0
+idsc-07p_bd_exo_mseq_20190424.bam.stats	filtered_sequences:	0
+idsc-10a_20190430.bam.stats	filtered_sequences:	0
+idsc-10c_20190430.bam.stats	filtered_sequences:	0
+idsc-10p_20190430.bam.stats	filtered_sequences:	0
+idsc-13a_20190430.bam.stats	filtered_sequences:	0
+idsc-13b_20190430.bam.stats	filtered_sequences:	0
+idsc-13p_20190430.bam.stats	filtered_sequences:	0
+idsc-07b_20190430.bam.stats	insert_size_average:	172.8
+idsc-10p_20190430.bam.stats	insert_size_average:	188.6
+idsc-13b_20190430.bam.stats	insert_size_average:	189.4
+idsc-06a_20190430.bam.stats	insert_size_average:	191.5
+idsc-06p_20190430.bam.stats	insert_size_average:	193.1
+idsc-06b_20190430.bam.stats	insert_size_average:	197.7
+idsc-10a_20190430.bam.stats	insert_size_average:	197.7
+idsc-13a_20190430.bam.stats	insert_size_average:	197.9
+idsc-07a_bd_exo_mseq_20190424.bam.stats	insert_size_average:	199.1
+idsc-10c_20190430.bam.stats	insert_size_average:	199.3
+idsc-13p_20190430.bam.stats	insert_size_average:	200.5
+idsc-06c_20190430.bam.stats	insert_size_average:	200.9
+idsc-07p_bd_exo_mseq_20190424.bam.stats	insert_size_average:	203.1
+idsc-07p_20190430.bam.stats	insert_size_average:	206.4
+idsc-07a_20190430.bam.stats	insert_size_average:	209.4
+idsc-07b_20190430.bam.stats	insert_size_standard_deviation:	62.3
+idsc-06a_20190430.bam.stats	insert_size_standard_deviation:	69.8
+idsc-10p_20190430.bam.stats	insert_size_standard_deviation:	73.0
+idsc-13b_20190430.bam.stats	insert_size_standard_deviation:	74.2
+idsc-06p_20190430.bam.stats	insert_size_standard_deviation:	75.4
+idsc-10a_20190430.bam.stats	insert_size_standard_deviation:	75.9
+idsc-10c_20190430.bam.stats	insert_size_standard_deviation:	76.6
+idsc-06c_20190430.bam.stats	insert_size_standard_deviation:	76.9
+idsc-13a_20190430.bam.stats	insert_size_standard_deviation:	77.2
+idsc-06b_20190430.bam.stats	insert_size_standard_deviation:	78.1
+idsc-07a_bd_exo_mseq_20190424.bam.stats	insert_size_standard_deviation:	78.1
+idsc-13p_20190430.bam.stats	insert_size_standard_deviation:	78.3
+idsc-07p_bd_exo_mseq_20190424.bam.stats	insert_size_standard_deviation:	79.4
+idsc-07a_20190430.bam.stats	insert_size_standard_deviation:	80.6
+idsc-07p_20190430.bam.stats	insert_size_standard_deviation:	80.7
+idsc-10c_20190430.bam.stats	inward_oriented_pairs:	10937165
+idsc-06p_20190430.bam.stats	inward_oriented_pairs:	11953388
+idsc-10a_20190430.bam.stats	inward_oriented_pairs:	12495983
+idsc-06b_20190430.bam.stats	inward_oriented_pairs:	14149821
+idsc-10p_20190430.bam.stats	inward_oriented_pairs:	14415435
+idsc-06c_20190430.bam.stats	inward_oriented_pairs:	15040233
+idsc-07b_20190430.bam.stats	inward_oriented_pairs:	15725581
+idsc-07p_20190430.bam.stats	inward_oriented_pairs:	16550914
+idsc-07a_bd_exo_mseq_20190424.bam.stats	inward_oriented_pairs:	16795641
+idsc-07p_bd_exo_mseq_20190424.bam.stats	inward_oriented_pairs:	19344215
+idsc-06a_20190430.bam.stats	inward_oriented_pairs:	20392227
+idsc-13a_20190430.bam.stats	inward_oriented_pairs:	8123591
+idsc-07a_20190430.bam.stats	inward_oriented_pairs:	8141966
+idsc-13b_20190430.bam.stats	inward_oriented_pairs:	8428358
+idsc-13p_20190430.bam.stats	inward_oriented_pairs:	9099815
+idsc-06a_20190430.bam.stats	is_sorted:	1
+idsc-06b_20190430.bam.stats	is_sorted:	1
+idsc-06c_20190430.bam.stats	is_sorted:	1
+idsc-06p_20190430.bam.stats	is_sorted:	1
+idsc-07a_20190430.bam.stats	is_sorted:	1
+idsc-07a_bd_exo_mseq_20190424.bam.stats	is_sorted:	1
+idsc-07b_20190430.bam.stats	is_sorted:	1
+idsc-07p_20190430.bam.stats	is_sorted:	1
+idsc-07p_bd_exo_mseq_20190424.bam.stats	is_sorted:	1
+idsc-10a_20190430.bam.stats	is_sorted:	1
+idsc-10c_20190430.bam.stats	is_sorted:	1
+idsc-10p_20190430.bam.stats	is_sorted:	1
+idsc-13a_20190430.bam.stats	is_sorted:	1
+idsc-13b_20190430.bam.stats	is_sorted:	1
+idsc-13p_20190430.bam.stats	is_sorted:	1
+idsc-10c_20190430.bam.stats	last_fragments:	11189054
+idsc-06p_20190430.bam.stats	last_fragments:	12241790
+idsc-10a_20190430.bam.stats	last_fragments:	12768418
+idsc-06b_20190430.bam.stats	last_fragments:	14509292
+idsc-10p_20190430.bam.stats	last_fragments:	14746612
+idsc-06c_20190430.bam.stats	last_fragments:	15359302
+idsc-07b_20190430.bam.stats	last_fragments:	16125082
+idsc-07p_20190430.bam.stats	last_fragments:	16928602
+idsc-07a_bd_exo_mseq_20190424.bam.stats	last_fragments:	17282384
+idsc-07p_bd_exo_mseq_20190424.bam.stats	last_fragments:	19915752
+idsc-06a_20190430.bam.stats	last_fragments:	20907811
+idsc-13a_20190430.bam.stats	last_fragments:	8306560
+idsc-07a_20190430.bam.stats	last_fragments:	8341733
+idsc-13b_20190430.bam.stats	last_fragments:	8633482
+idsc-13p_20190430.bam.stats	last_fragments:	9288860
+idsc-06a_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-06b_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-06c_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-06p_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-07a_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-07a_bd_exo_mseq_20190424.bam.stats	maximum_first_fragment_length:	76
+idsc-07b_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-07p_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-07p_bd_exo_mseq_20190424.bam.stats	maximum_first_fragment_length:	76
+idsc-10a_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-10c_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-10p_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-13a_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-13b_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-13p_20190430.bam.stats	maximum_first_fragment_length:	76
+idsc-06a_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-06b_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-06c_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-06p_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-07a_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-07a_bd_exo_mseq_20190424.bam.stats	maximum_last_fragment_length:	76
+idsc-07b_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-07p_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-07p_bd_exo_mseq_20190424.bam.stats	maximum_last_fragment_length:	76
+idsc-10a_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-10c_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-10p_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-13a_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-13b_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-13p_20190430.bam.stats	maximum_last_fragment_length:	76
+idsc-06a_20190430.bam.stats	maximum_length:	76
+idsc-06b_20190430.bam.stats	maximum_length:	76
+idsc-06c_20190430.bam.stats	maximum_length:	76
+idsc-06p_20190430.bam.stats	maximum_length:	76
+idsc-07a_20190430.bam.stats	maximum_length:	76
+idsc-07a_bd_exo_mseq_20190424.bam.stats	maximum_length:	76
+idsc-07b_20190430.bam.stats	maximum_length:	76
+idsc-07p_20190430.bam.stats	maximum_length:	76
+idsc-07p_bd_exo_mseq_20190424.bam.stats	maximum_length:	76
+idsc-10a_20190430.bam.stats	maximum_length:	76
+idsc-10c_20190430.bam.stats	maximum_length:	76
+idsc-10p_20190430.bam.stats	maximum_length:	76
+idsc-13a_20190430.bam.stats	maximum_length:	76
+idsc-13b_20190430.bam.stats	maximum_length:	76
+idsc-13p_20190430.bam.stats	maximum_length:	76
+idsc-07a_bd_exo_mseq_20190424.bam.stats	mismatches:	10586390	#_from_NM_fields
+idsc-07p_bd_exo_mseq_20190424.bam.stats	mismatches:	12570790	#_from_NM_fields
+idsc-13b_20190430.bam.stats	mismatches:	3759969	#_from_NM_fields
+idsc-13a_20190430.bam.stats	mismatches:	3766812	#_from_NM_fields
+idsc-07a_20190430.bam.stats	mismatches:	3940905	#_from_NM_fields
+idsc-13p_20190430.bam.stats	mismatches:	4195242	#_from_NM_fields
+idsc-10c_20190430.bam.stats	mismatches:	5151008	#_from_NM_fields
+idsc-06p_20190430.bam.stats	mismatches:	5318324	#_from_NM_fields
+idsc-10a_20190430.bam.stats	mismatches:	5634855	#_from_NM_fields
+idsc-06b_20190430.bam.stats	mismatches:	6626724	#_from_NM_fields
+idsc-10p_20190430.bam.stats	mismatches:	6649804	#_from_NM_fields
+idsc-06c_20190430.bam.stats	mismatches:	6830649	#_from_NM_fields
+idsc-07b_20190430.bam.stats	mismatches:	7013946	#_from_NM_fields
+idsc-07p_20190430.bam.stats	mismatches:	7653248	#_from_NM_fields
+idsc-06a_20190430.bam.stats	mismatches:	9183226	#_from_NM_fields
+idsc-13a_20190430.bam.stats	non-primary_alignments:	20025
+idsc-07a_20190430.bam.stats	non-primary_alignments:	20383
+idsc-13p_20190430.bam.stats	non-primary_alignments:	21518
+idsc-10c_20190430.bam.stats	non-primary_alignments:	25243
+idsc-13b_20190430.bam.stats	non-primary_alignments:	25757
+idsc-10a_20190430.bam.stats	non-primary_alignments:	28703
+idsc-06p_20190430.bam.stats	non-primary_alignments:	35331
+idsc-10p_20190430.bam.stats	non-primary_alignments:	35358
+idsc-06c_20190430.bam.stats	non-primary_alignments:	36075
+idsc-06b_20190430.bam.stats	non-primary_alignments:	36806
+idsc-07a_bd_exo_mseq_20190424.bam.stats	non-primary_alignments:	41027
+idsc-07p_20190430.bam.stats	non-primary_alignments:	42805
+idsc-07b_20190430.bam.stats	non-primary_alignments:	43463
+idsc-07p_bd_exo_mseq_20190424.bam.stats	non-primary_alignments:	44106
+idsc-06a_20190430.bam.stats	non-primary_alignments:	59221
+idsc-10c_20190430.bam.stats	outward_oriented_pairs:	102847
+idsc-13b_20190430.bam.stats	outward_oriented_pairs:	106613
+idsc-10a_20190430.bam.stats	outward_oriented_pairs:	124259
+idsc-06c_20190430.bam.stats	outward_oriented_pairs:	137997
+idsc-06p_20190430.bam.stats	outward_oriented_pairs:	143609
+idsc-10p_20190430.bam.stats	outward_oriented_pairs:	163503
+idsc-06b_20190430.bam.stats	outward_oriented_pairs:	163994
+idsc-07p_20190430.bam.stats	outward_oriented_pairs:	164686
+idsc-07b_20190430.bam.stats	outward_oriented_pairs:	213460
+idsc-07a_bd_exo_mseq_20190424.bam.stats	outward_oriented_pairs:	233399
+idsc-06a_20190430.bam.stats	outward_oriented_pairs:	237668
+idsc-07p_bd_exo_mseq_20190424.bam.stats	outward_oriented_pairs:	257455
+idsc-07a_20190430.bam.stats	outward_oriented_pairs:	76546
+idsc-13a_20190430.bam.stats	outward_oriented_pairs:	81449
+idsc-13p_20190430.bam.stats	outward_oriented_pairs:	85918
+idsc-06a_20190430.bam.stats	pairs_on_different_chromosomes:	119838
+idsc-13a_20190430.bam.stats	pairs_on_different_chromosomes:	43637
+idsc-13p_20190430.bam.stats	pairs_on_different_chromosomes:	48217
+idsc-07a_20190430.bam.stats	pairs_on_different_chromosomes:	48323
+idsc-13b_20190430.bam.stats	pairs_on_different_chromosomes:	48598
+idsc-10c_20190430.bam.stats	pairs_on_different_chromosomes:	57473
+idsc-10a_20190430.bam.stats	pairs_on_different_chromosomes:	64379
+idsc-06p_20190430.bam.stats	pairs_on_different_chromosomes:	67283
+idsc-10p_20190430.bam.stats	pairs_on_different_chromosomes:	70917
+idsc-07b_20190430.bam.stats	pairs_on_different_chromosomes:	71402
+idsc-06b_20190430.bam.stats	pairs_on_different_chromosomes:	77872
+idsc-06c_20190430.bam.stats	pairs_on_different_chromosomes:	81462
+idsc-07a_bd_exo_mseq_20190424.bam.stats	pairs_on_different_chromosomes:	85570
+idsc-07p_bd_exo_mseq_20190424.bam.stats	pairs_on_different_chromosomes:	97521
+idsc-07p_20190430.bam.stats	pairs_on_different_chromosomes:	98425
+idsc-07a_20190430.bam.stats	pairs_with_other_orientation:	1927
+idsc-13a_20190430.bam.stats	pairs_with_other_orientation:	1996
+idsc-13b_20190430.bam.stats	pairs_with_other_orientation:	2256
+idsc-13p_20190430.bam.stats	pairs_with_other_orientation:	2325
+idsc-10c_20190430.bam.stats	pairs_with_other_orientation:	2726
+idsc-10a_20190430.bam.stats	pairs_with_other_orientation:	2966
+idsc-06p_20190430.bam.stats	pairs_with_other_orientation:	2991
+idsc-07a_bd_exo_mseq_20190424.bam.stats	pairs_with_other_orientation:	3431
+idsc-10p_20190430.bam.stats	pairs_with_other_orientation:	3498
+idsc-06b_20190430.bam.stats	pairs_with_other_orientation:	3504
+idsc-06c_20190430.bam.stats	pairs_with_other_orientation:	3580
+idsc-07b_20190430.bam.stats	pairs_with_other_orientation:	3591
+idsc-07p_bd_exo_mseq_20190424.bam.stats	pairs_with_other_orientation:	4021
+idsc-07p_20190430.bam.stats	pairs_with_other_orientation:	4065
+idsc-06a_20190430.bam.stats	pairs_with_other_orientation:	4858
+idsc-07p_bd_exo_mseq_20190424.bam.stats	percentage_of_properly_paired_reads:	98.3
+idsc-07a_20190430.bam.stats	percentage_of_properly_paired_reads:	98.4
+idsc-07a_bd_exo_mseq_20190424.bam.stats	percentage_of_properly_paired_reads:	98.4
+idsc-06b_20190430.bam.stats	percentage_of_properly_paired_reads:	98.5
+idsc-10c_20190430.bam.stats	percentage_of_properly_paired_reads:	98.5
+idsc-06a_20190430.bam.stats	percentage_of_properly_paired_reads:	98.6
+idsc-06p_20190430.bam.stats	percentage_of_properly_paired_reads:	98.6
+idsc-07b_20190430.bam.stats	percentage_of_properly_paired_reads:	98.6
+idsc-07p_20190430.bam.stats	percentage_of_properly_paired_reads:	98.6
+idsc-13a_20190430.bam.stats	percentage_of_properly_paired_reads:	98.6
+idsc-13b_20190430.bam.stats	percentage_of_properly_paired_reads:	98.6
+idsc-06c_20190430.bam.stats	percentage_of_properly_paired_reads:	98.7
+idsc-10a_20190430.bam.stats	percentage_of_properly_paired_reads:	98.7
+idsc-10p_20190430.bam.stats	percentage_of_properly_paired_reads:	98.7
+idsc-13p_20190430.bam.stats	percentage_of_properly_paired_reads:	98.7
+idsc-13a_20190430.bam.stats	raw_total_sequences:	16613120
+idsc-07a_20190430.bam.stats	raw_total_sequences:	16683466
+idsc-13b_20190430.bam.stats	raw_total_sequences:	17266964
+idsc-13p_20190430.bam.stats	raw_total_sequences:	18577720
+idsc-10c_20190430.bam.stats	raw_total_sequences:	22378108
+idsc-06p_20190430.bam.stats	raw_total_sequences:	24483580
+idsc-10a_20190430.bam.stats	raw_total_sequences:	25536836
+idsc-06b_20190430.bam.stats	raw_total_sequences:	29018584
+idsc-10p_20190430.bam.stats	raw_total_sequences:	29493224
+idsc-06c_20190430.bam.stats	raw_total_sequences:	30718604
+idsc-07b_20190430.bam.stats	raw_total_sequences:	32250164
+idsc-07p_20190430.bam.stats	raw_total_sequences:	33857204
+idsc-07a_bd_exo_mseq_20190424.bam.stats	raw_total_sequences:	34564768
+idsc-07p_bd_exo_mseq_20190424.bam.stats	raw_total_sequences:	39831504
+idsc-06a_20190430.bam.stats	raw_total_sequences:	41815622
+idsc-06a_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-06b_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-06c_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-06p_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-07a_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-07b_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-07p_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-10a_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-10c_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-10p_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-13a_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-13b_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-13p_20190430.bam.stats	reads_duplicated:	0	#_PCR_or_optical_duplicate_bit_set
+idsc-13a_20190430.bam.stats	reads_mapped:	16541496
+idsc-07a_20190430.bam.stats	reads_mapped:	16584336
+idsc-13b_20190430.bam.stats	reads_mapped:	17209078
+idsc-13p_20190430.bam.stats	reads_mapped:	18515220
+idsc-10c_20190430.bam.stats	reads_mapped:	22259293
+idsc-06p_20190430.bam.stats	reads_mapped:	24391494
+idsc-10a_20190430.bam.stats	reads_mapped:	25435092
+idsc-06b_20190430.bam.stats	reads_mapped:	28866066
+idsc-10p_20190430.bam.stats	reads_mapped:	29376271
+idsc-06c_20190430.bam.stats	reads_mapped:	30601782
+idsc-07b_20190430.bam.stats	reads_mapped:	32102642
+idsc-07p_20190430.bam.stats	reads_mapped:	33722785
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_mapped:	34319137
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_mapped:	39506648
+idsc-06a_20190430.bam.stats	reads_mapped:	41614986
+idsc-13a_20190430.bam.stats	reads_mapped_and_paired:	16501346	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-07a_20190430.bam.stats	reads_mapped_and_paired:	16537524	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-13b_20190430.bam.stats	reads_mapped_and_paired:	17171650	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-13p_20190430.bam.stats	reads_mapped_and_paired:	18472550	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-10c_20190430.bam.stats	reads_mapped_and_paired:	22200422	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-06p_20190430.bam.stats	reads_mapped_and_paired:	24334542	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-10a_20190430.bam.stats	reads_mapped_and_paired:	25375174	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-06b_20190430.bam.stats	reads_mapped_and_paired:	28790382	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-10p_20190430.bam.stats	reads_mapped_and_paired:	29306706	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-06c_20190430.bam.stats	reads_mapped_and_paired:	30526544	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-07b_20190430.bam.stats	reads_mapped_and_paired:	32028068	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-07p_20190430.bam.stats	reads_mapped_and_paired:	33636180	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_mapped_and_paired:	34236082	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_mapped_and_paired:	39406424	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-06a_20190430.bam.stats	reads_mapped_and_paired:	41509182	#_paired-end_technology_bit_set_+_both_mates_mapped
+idsc-13p_20190430.bam.stats	reads_MQ0:	1055536	#_mapped_and_MQ=0
+idsc-13b_20190430.bam.stats	reads_MQ0:	1092206	#_mapped_and_MQ=0
+idsc-06p_20190430.bam.stats	reads_MQ0:	1309367	#_mapped_and_MQ=0
+idsc-10c_20190430.bam.stats	reads_MQ0:	1354863	#_mapped_and_MQ=0
+idsc-10a_20190430.bam.stats	reads_MQ0:	1494647	#_mapped_and_MQ=0
+idsc-06c_20190430.bam.stats	reads_MQ0:	1617778	#_mapped_and_MQ=0
+idsc-06b_20190430.bam.stats	reads_MQ0:	1678470	#_mapped_and_MQ=0
+idsc-10p_20190430.bam.stats	reads_MQ0:	1792603	#_mapped_and_MQ=0
+idsc-07p_20190430.bam.stats	reads_MQ0:	1866565	#_mapped_and_MQ=0
+idsc-07b_20190430.bam.stats	reads_MQ0:	1997401	#_mapped_and_MQ=0
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_MQ0:	2038729	#_mapped_and_MQ=0
+idsc-06a_20190430.bam.stats	reads_MQ0:	2197009	#_mapped_and_MQ=0
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_MQ0:	2340434	#_mapped_and_MQ=0
+idsc-13a_20190430.bam.stats	reads_MQ0:	893848	#_mapped_and_MQ=0
+idsc-07a_20190430.bam.stats	reads_MQ0:	950621	#_mapped_and_MQ=0
+idsc-13a_20190430.bam.stats	reads_paired:	16613120	#_paired-end_technology_bit_set
+idsc-07a_20190430.bam.stats	reads_paired:	16683466	#_paired-end_technology_bit_set
+idsc-13b_20190430.bam.stats	reads_paired:	17266964	#_paired-end_technology_bit_set
+idsc-13p_20190430.bam.stats	reads_paired:	18577720	#_paired-end_technology_bit_set
+idsc-10c_20190430.bam.stats	reads_paired:	22378108	#_paired-end_technology_bit_set
+idsc-06p_20190430.bam.stats	reads_paired:	24483580	#_paired-end_technology_bit_set
+idsc-10a_20190430.bam.stats	reads_paired:	25536836	#_paired-end_technology_bit_set
+idsc-06b_20190430.bam.stats	reads_paired:	29018584	#_paired-end_technology_bit_set
+idsc-10p_20190430.bam.stats	reads_paired:	29493224	#_paired-end_technology_bit_set
+idsc-06c_20190430.bam.stats	reads_paired:	30718604	#_paired-end_technology_bit_set
+idsc-07b_20190430.bam.stats	reads_paired:	32250164	#_paired-end_technology_bit_set
+idsc-07p_20190430.bam.stats	reads_paired:	33857204	#_paired-end_technology_bit_set
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_paired:	34564768	#_paired-end_technology_bit_set
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_paired:	39831504	#_paired-end_technology_bit_set
+idsc-06a_20190430.bam.stats	reads_paired:	41815622	#_paired-end_technology_bit_set
+idsc-13a_20190430.bam.stats	reads_properly_paired:	16376664	#_proper-pair_bit_set
+idsc-07a_20190430.bam.stats	reads_properly_paired:	16417472	#_proper-pair_bit_set
+idsc-13b_20190430.bam.stats	reads_properly_paired:	17033062	#_proper-pair_bit_set
+idsc-13p_20190430.bam.stats	reads_properly_paired:	18331440	#_proper-pair_bit_set
+idsc-10c_20190430.bam.stats	reads_properly_paired:	22034100	#_proper-pair_bit_set
+idsc-06p_20190430.bam.stats	reads_properly_paired:	24148914	#_proper-pair_bit_set
+idsc-10a_20190430.bam.stats	reads_properly_paired:	25195438	#_proper-pair_bit_set
+idsc-06b_20190430.bam.stats	reads_properly_paired:	28576610	#_proper-pair_bit_set
+idsc-10p_20190430.bam.stats	reads_properly_paired:	29095996	#_proper-pair_bit_set
+idsc-06c_20190430.bam.stats	reads_properly_paired:	30306148	#_proper-pair_bit_set
+idsc-07b_20190430.bam.stats	reads_properly_paired:	31812670	#_proper-pair_bit_set
+idsc-07p_20190430.bam.stats	reads_properly_paired:	33387248	#_proper-pair_bit_set
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_properly_paired:	34012040	#_proper-pair_bit_set
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_properly_paired:	39157496	#_proper-pair_bit_set
+idsc-06a_20190430.bam.stats	reads_properly_paired:	41209396	#_proper-pair_bit_set
+idsc-06a_20190430.bam.stats	reads_QC_failed:	0
+idsc-06b_20190430.bam.stats	reads_QC_failed:	0
+idsc-06c_20190430.bam.stats	reads_QC_failed:	0
+idsc-06p_20190430.bam.stats	reads_QC_failed:	0
+idsc-07a_20190430.bam.stats	reads_QC_failed:	0
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_QC_failed:	0
+idsc-07b_20190430.bam.stats	reads_QC_failed:	0
+idsc-07p_20190430.bam.stats	reads_QC_failed:	0
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_QC_failed:	0
+idsc-10a_20190430.bam.stats	reads_QC_failed:	0
+idsc-10c_20190430.bam.stats	reads_QC_failed:	0
+idsc-10p_20190430.bam.stats	reads_QC_failed:	0
+idsc-13a_20190430.bam.stats	reads_QC_failed:	0
+idsc-13b_20190430.bam.stats	reads_QC_failed:	0
+idsc-13p_20190430.bam.stats	reads_QC_failed:	0
+idsc-10a_20190430.bam.stats	reads_unmapped:	101744
+idsc-06c_20190430.bam.stats	reads_unmapped:	116822
+idsc-10p_20190430.bam.stats	reads_unmapped:	116953
+idsc-10c_20190430.bam.stats	reads_unmapped:	118815
+idsc-07p_20190430.bam.stats	reads_unmapped:	134419
+idsc-07b_20190430.bam.stats	reads_unmapped:	147522
+idsc-06b_20190430.bam.stats	reads_unmapped:	152518
+idsc-06a_20190430.bam.stats	reads_unmapped:	200636
+idsc-07a_bd_exo_mseq_20190424.bam.stats	reads_unmapped:	245631
+idsc-07p_bd_exo_mseq_20190424.bam.stats	reads_unmapped:	324856
+idsc-13b_20190430.bam.stats	reads_unmapped:	57886
+idsc-13p_20190430.bam.stats	reads_unmapped:	62500
+idsc-13a_20190430.bam.stats	reads_unmapped:	71624
+idsc-06p_20190430.bam.stats	reads_unmapped:	92086
+idsc-07a_20190430.bam.stats	reads_unmapped:	99130
+idsc-13a_20190430.bam.stats	sequences:	16613120
+idsc-07a_20190430.bam.stats	sequences:	16683466
+idsc-13b_20190430.bam.stats	sequences:	17266964
+idsc-13p_20190430.bam.stats	sequences:	18577720
+idsc-10c_20190430.bam.stats	sequences:	22378108
+idsc-06p_20190430.bam.stats	sequences:	24483580
+idsc-10a_20190430.bam.stats	sequences:	25536836
+idsc-06b_20190430.bam.stats	sequences:	29018584
+idsc-10p_20190430.bam.stats	sequences:	29493224
+idsc-06c_20190430.bam.stats	sequences:	30718604
+idsc-07b_20190430.bam.stats	sequences:	32250164
+idsc-07p_20190430.bam.stats	sequences:	33857204
+idsc-07a_bd_exo_mseq_20190424.bam.stats	sequences:	34564768
+idsc-07p_bd_exo_mseq_20190424.bam.stats	sequences:	39831504
+idsc-06a_20190430.bam.stats	sequences:	41815622
+idsc-06b_20190430.bam.stats	total_first_fragment_length:	1102706192	#_ignores_clipping
+idsc-10p_20190430.bam.stats	total_first_fragment_length:	1120742512	#_ignores_clipping
+idsc-06c_20190430.bam.stats	total_first_fragment_length:	1167306952	#_ignores_clipping
+idsc-07b_20190430.bam.stats	total_first_fragment_length:	1225506232	#_ignores_clipping
+idsc-07p_20190430.bam.stats	total_first_fragment_length:	1286573752	#_ignores_clipping
+idsc-07a_bd_exo_mseq_20190424.bam.stats	total_first_fragment_length:	1304344366	#_ignores_clipping
+idsc-07p_bd_exo_mseq_20190424.bam.stats	total_first_fragment_length:	1503159673	#_ignores_clipping
+idsc-06a_20190430.bam.stats	total_first_fragment_length:	1588993636	#_ignores_clipping
+idsc-13a_20190430.bam.stats	total_first_fragment_length:	631298560	#_ignores_clipping
+idsc-07a_20190430.bam.stats	total_first_fragment_length:	633971708	#_ignores_clipping
+idsc-13b_20190430.bam.stats	total_first_fragment_length:	656144632	#_ignores_clipping
+idsc-13p_20190430.bam.stats	total_first_fragment_length:	705953360	#_ignores_clipping
+idsc-10c_20190430.bam.stats	total_first_fragment_length:	850368104	#_ignores_clipping
+idsc-06p_20190430.bam.stats	total_first_fragment_length:	930376040	#_ignores_clipping
+idsc-10a_20190430.bam.stats	total_first_fragment_length:	970399768	#_ignores_clipping
+idsc-06b_20190430.bam.stats	total_last_fragment_length:	1102706192	#_ignores_clipping
+idsc-10p_20190430.bam.stats	total_last_fragment_length:	1120742512	#_ignores_clipping
+idsc-06c_20190430.bam.stats	total_last_fragment_length:	1167306952	#_ignores_clipping
+idsc-07b_20190430.bam.stats	total_last_fragment_length:	1225506232	#_ignores_clipping
+idsc-07p_20190430.bam.stats	total_last_fragment_length:	1286573752	#_ignores_clipping
+idsc-07a_bd_exo_mseq_20190424.bam.stats	total_last_fragment_length:	1304311667	#_ignores_clipping
+idsc-07p_bd_exo_mseq_20190424.bam.stats	total_last_fragment_length:	1503135150	#_ignores_clipping
+idsc-06a_20190430.bam.stats	total_last_fragment_length:	1588993636	#_ignores_clipping
+idsc-13a_20190430.bam.stats	total_last_fragment_length:	631298560	#_ignores_clipping
+idsc-07a_20190430.bam.stats	total_last_fragment_length:	633971708	#_ignores_clipping
+idsc-13b_20190430.bam.stats	total_last_fragment_length:	656144632	#_ignores_clipping
+idsc-13p_20190430.bam.stats	total_last_fragment_length:	705953360	#_ignores_clipping
+idsc-10c_20190430.bam.stats	total_last_fragment_length:	850368104	#_ignores_clipping
+idsc-06p_20190430.bam.stats	total_last_fragment_length:	930376040	#_ignores_clipping
+idsc-10a_20190430.bam.stats	total_last_fragment_length:	970399768	#_ignores_clipping
+idsc-13a_20190430.bam.stats	total_length:	1262597120	#_ignores_clipping
+idsc-07a_20190430.bam.stats	total_length:	1267943416	#_ignores_clipping
+idsc-13b_20190430.bam.stats	total_length:	1312289264	#_ignores_clipping
+idsc-13p_20190430.bam.stats	total_length:	1411906720	#_ignores_clipping
+idsc-10c_20190430.bam.stats	total_length:	1700736208	#_ignores_clipping
+idsc-06p_20190430.bam.stats	total_length:	1860752080	#_ignores_clipping
+idsc-10a_20190430.bam.stats	total_length:	1940799536	#_ignores_clipping
+idsc-06b_20190430.bam.stats	total_length:	2205412384	#_ignores_clipping
+idsc-10p_20190430.bam.stats	total_length:	2241485024	#_ignores_clipping
+idsc-06c_20190430.bam.stats	total_length:	2334613904	#_ignores_clipping
+idsc-07b_20190430.bam.stats	total_length:	2451012464	#_ignores_clipping
+idsc-07p_20190430.bam.stats	total_length:	2573147504	#_ignores_clipping
+idsc-07a_bd_exo_mseq_20190424.bam.stats	total_length:	2608656033	#_ignores_clipping
+idsc-07p_bd_exo_mseq_20190424.bam.stats	total_length:	3006294823	#_ignores_clipping
+idsc-06a_20190430.bam.stats	total_length:	3177987272	#_ignores_clipping
