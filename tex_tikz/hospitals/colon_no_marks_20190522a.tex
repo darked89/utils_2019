@@ -1,0 +1,55 @@
+\documentclass[border=.1in]{standalone}
+    
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+    
+    \usepackage{graphicx}
+    \usepackage{tikz}
+    %\usepackage{tikz-feynman}
+    \usetikzlibrary{shapes,decorations.text,positioning,arrows,calc}
+
+    \begin{document}
+
+\begin{tikzpicture}
+	%\draw (-4,-4) grid (4,4);
+	\coordinate (c1) at (-6.43,0);
+	\coordinate (c2) at (6.78,0);
+	\draw[densely dashdotted] (c1) -- node [sloped,below left] {\small{linia cięcia podłużnego}} (c2); 
+	   
+	\coordinate (tu) at (2.0, 1.5);
+	   
+	\draw (0,5) node[cylinder,draw=black,thick,aspect=3.9,
+		minimum height=14cm,minimum width=10cm,
+		shape border rotate=180,
+		cylinder uses custom fill,
+		cylinder body fill=blue!30,
+	cylinder end  fill=blue!10, opacity=.4,anchor=north]
+	(A) {};
+	
+	%\draw[<-] (-9,6.5) --  node [left, sloped,above] {\large{$colon\ start$}} (-6.5,6.5) ;
+	%guz etc 
+	
+	\draw[<-] (-9,6.5) --  node [left, sloped,above] {\large{początek\ jelita}} (-6.0,6.5) ;
+
+   \draw[->] (6.0,6.5) --  node [left, sloped,above] {\large{koniec\ jelita}} (9,6.5) ;
+	%guz etc 
+	  
+
+	  
+	    
+	   
+	%end guz etc
+	%% nodes
+
+	
+	   
+	%%end nodes
+	
+	
+	
+	%demo
+	%\draw (-10,-10) grid (10,8);
+	
+\end{tikzpicture}
+\end{document}

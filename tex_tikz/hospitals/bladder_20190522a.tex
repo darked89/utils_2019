@@ -1,0 +1,125 @@
+\documentclass[border=.1in]{standalone}
+    
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+    
+    \usepackage{graphicx}
+    \usepackage{tikz}
+    
+    \usetikzlibrary{shapes,decorations.text,positioning,arrows,calc}
+
+    \begin{document}
+
+\begin{tikzpicture}
+	  
+	%\coordinate (c1) at (-6.43,0);
+	%\coordinate (c2) at (6.78,0);
+	   
+	%\draw[densely dashdotted] (c1) -- node [sloped,below left] {\small{linia cięcia podłużnego}} (c2); 
+	   
+	\coordinate (tu) at (2.0, 1.5);
+	%%\draw[thick,green] ([shift=(30:1cm)]6,0) arc (15:180:6cm);
+	% \draw[ very thick,green] ([shift=(0:0)]6,0) arc (0:180:6cm);
+	    
+	\coordinate (upperred) at (7,0);
+	\coordinate (left_vesicle) at (-7,0);
+	\coordinate (rightred) at (3.6,0.7);
+	\draw[thick] (upperred) arc[start angle=0,end angle=180,x radius=70mm, y radius=50mm];
+	     
+	\draw[thick] (upperred) arc[start angle=0,end angle=-85,x radius=70mm, y radius=80mm];
+	\draw[thick] (left_vesicle) arc[start angle=-180,end angle=-95,x radius=70mm, y radius=80mm];
+	      
+	%\draw[thick] (-1, -8) arc[start angle=-180,end angle=95,x radius=70mm, y radius=80mm];
+	\draw[thick] (-0.63, -7.98) --  node [left] {\large{$cewka$}} (-0.5, -10);
+	      
+	\draw[thick] (0.63, -7.98) -- (0.5, -10);
+	% \draw[thick,yellow] (left_vesicle)  arc (-130:60:1);
+	%\draw[very thick,blue] ([shift=(0:0)]6,0) arc (0:180:6.2cm);
+	%\draw [red,thick,domain=0:180] plot ({cos(\x)}, {sin(\x)});
+	%\draw [blue,thick,domain=180:270] plot ({cos(\x)}, {sin(\x)});
+	   
+	
+	
+	%guz etc
+	\node [circle,
+		draw=black,fill=red,inner sep=0pt,
+		minimum size=20pt, 
+	label=right:{\small{$PT1$}}] (TU) at (tu) {};
+	    	
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=above:{\small{$UM1$}}, node distance=1,above = of TU] (UM1) {}; 
+	  
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=right:{\small{$UM2$}}, node distance=1,below right = of TU] (UM2) {};
+	  
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=left:{\small{$UM3$}}, node distance=1,below left = of TU] (UM3) {};
+	 
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=above:{\small{$UM11$}}, node distance=2,above right = of TU] (UM11) {};
+	  
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=below:{\small{$UM12$}}, node distance=2,below = of TU] (UM12) {};
+	  
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=above:{\small{$UM13$}}, node distance=2,above left = of TU] (UM13) {};
+	   
+	%% distance arrows
+	\draw[thin,<->] (TU.north) --  node [sloped,above] {\small{$1cm$}} (UM1);
+	
+	\draw[thin,<->] (TU.south east) --  node [sloped,above] {\small{$1cm$}} (UM2) ;
+	 
+	\draw[thin,<->] (TU.south west) --  node [sloped,above] {\small{$1cm$}} (UM3) ;
+	 
+	\draw[thin,<->] (TU.north east) --  node [sloped,above] {\small{$2cm$}} (UM11) ;
+	  
+	\draw[thin,<->] (TU.south) --  node [sloped,above] {\small{$2cm$}} (UM12) ;
+	      
+	\draw[thin,<->] (TU.north west) --  node [sloped,above] {\small{$2cm$}} (UM13) ;
+	 
+	%\draw[thin,<->] (TU.south ) --  node [sloped,above] {\small{$2cm$}} (UM12) ;
+	
+	% \draw[thin,<->] (TU.north east) --  node [sloped,above] {\small{$2cm$}} (UM13) ;
+	
+	
+	 
+	%% end distance arrows
+	 
+	 
+	  
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt, label=left:{\small{$UM98$}}] (UM98) at (-2.0,-2.6) {};
+	  
+	\node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt, label=left:{\small{$UM99$}}] (UM99) at (-5,2) {};
+	  
+	    
+	   
+	%end guz etc
+	%% nodes
+	\node [ellipse, minimum width=2.3cm, minimum height=0.7cm, draw=black,fill=white, rotate=85]  (NODE1) at (-7.8,-1.5) {   } ;
+	    
+	\node [ellipse, minimum width=1.7cm, minimum height=0.7cm, draw=black,fill=white, rotate=60]  (NODE2) at (-7.5,2.0) {    } ;
+	    
+	\node [ellipse, minimum width=2.4cm, minimum height=0.7cm, draw=black,fill=white, rotate=120]  (NODE3) at (-8.0,4.4) {    } ;
+	    
+	\draw (NODE1.east) to[out=-2,in=-1] (NODE2.west);
+	\draw (NODE2.east) to[out=-2,in=-1] (NODE3.west);
+	     
+	\node [ellipse, minimum width=2.3cm,  minimum height=0.7cm, draw=black,fill=white, rotate=-50]  (NODEB1) at (-5.3, 5.2) {    } ;
+	   
+	\node [ellipse, minimum width=1.7cm,  minimum height=0.7cm, draw=black,fill=white, rotate=-90]  (NODEB2) at (-5.9, 7.5) {    } ;
+	   
+	%\node [ellipse, minimum width=2.4cm,  minimum height=0.7cm, draw=black,fill=white, rotate=2]  (NODEB3) at (2.8,-6.1) {    } ;  
+	     
+	\draw (NODEB1.west)  to[out=-2,in=-1] (NODEB2.east);
+	% \draw (NODEB2.east) to[out=-2,in=-1] (NODEB3.west);  
+	     
+	%position=-60:
+	   
+	\node [circle, draw=black, fill=red, inner sep=0pt, minimum size=10pt, label=left:{\small{$LN1$}} ] (LN1) at (-7.99, -1.8) {};
+	   
+	\node [circle, draw=black, fill=red, inner sep=0pt, minimum size=10pt, label=right:{\small{$LN2$}} ] (LN2) at (-5.1, 5.1) {};
+	   
+	%%end nodes
+	
+	
+	
+	%demo
+	%\draw (-10,-10) grid (10,10);
+	
+\end{tikzpicture}
+\end{document}
