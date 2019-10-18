@@ -2,9 +2,9 @@
 
 """
 
-takes an input bam files 
+globs input bam files 
 creates shell scripts for SLURM
-
+to run qorts with custom options
 
 java -Xmx96G -jar /opt/soft/qorts_1.3.6/QoRTs.jar  QC \
 --prefilterImproperPairs  \

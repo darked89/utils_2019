@@ -1,9 +1,9 @@
 #!/opt/conda/bin/python3.7
 
 """
-takes an input file with  names
+globs fq.r1.bz2 filenames
 creates shell scripts for SLURM
-maps reads with STAR
+maps paired reads with STAR
 sorts pipe output with samtools
 
 /opt/soft/star_2.7.2a/bin/Linux_x86_64_static/STARlong \

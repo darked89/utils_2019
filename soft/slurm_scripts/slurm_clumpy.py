@@ -1,7 +1,9 @@
 #!/opt/conda/bin/python3.7
 
 """
-takes an input file with bam names
+globs r1.fq names
+gets r2
+for clumipify.sh from BBMap to shrink 
 creates shell scripts for SLURM
 
 
@@ -22,7 +24,7 @@ import sys, os, glob
 
 num_of_threads = 12
 
-clumpify_exe = '/opt/soft/bbmap_38.63/clumpify.sh'
+clumpify_exe = '/opt/soft/bbmap_current/clumpify.sh'
 
 options = '''reorder=a \\
 shortname=shrink \\
@@ -41,7 +43,7 @@ export PATH=/opt/soft//opt/soft/graalvm-ee_19.2.0/bin:$PATH
 
 """
 
-fastq_r1_pattern = 'cbrako-*.r1.fq.gz'
+fastq_r1_pattern = '*.r1.fq.gz'
 
 
 for in_r1_fq in glob.glob(fastq_r1_pattern):
