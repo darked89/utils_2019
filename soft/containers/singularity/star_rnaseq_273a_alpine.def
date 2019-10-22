@@ -1,0 +1,42 @@
+BootStrap: library
+From: alpine:latest
+
+%runscript
+# run your script here.
+
+# check if there any arguments,
+if [ -z "$@" ]; then
+    # if theres non, test julia:
+    echo 'println("hello world from STAR 2.7.3a container!!!")' | STAR
+else
+    # if theres an argument, then run it! and hope its a STAR command
+    STAR "$@"
+fi
+
+
+%environment
+export PATH=/STAR/bin:$PATH
+export LC_ALL=C
+
+%post
+
+# we are installing some basic packages,
+# you can install your own
+#apt-get -y install <YOUR_PACKAGE>
+apk update
+
+# install some basic tools
+apk add curl tar gzip
+
+
+# now, download and install STAR
+curl -sSL "https://github.com/alexdobin/STAR/archive/2.7.3a.tar.gz" > star.tgz
+tar -C / -zxf star.tgz
+rm -f star.tgz
+rm -Rf /STAR-2.7.3a/bin/MacOSX_x86_64/
+rm -Rf /STAR-2.7.3a/bin/Linux_x86_64/
+mv /STAR-2.7.3a/bin/Linux_x86_64_static/* /STAR-2.7.3a/bin/
+rmdir /STAR-2.7.3a/bin/Linux_x86_64_static/
+
+ln -s /STAR-2.7.3a/ /STAR
+
