@@ -1,0 +1,58 @@
+BootStrap: library
+From: ubuntu:18.04
+
+
+%runscript
+# run your script here.
+
+# check if there any arguments,
+if [ -z "$@" ]; then
+    # if theres non, test GRIDSS:
+    echo 'println("hello world from GRIDSS 2.6.3 container!!!")' | gridss.sh
+else
+    # if theres an argument, then run it! and hope its a gridss.sh command
+    gridss. "$@"
+fi
+
+
+
+%environment
+export PATH=/:$PATH
+export LC_ALL=C
+export GRIDSS_JAR=/gridss.jar
+
+%post
+
+apt-get -y install software-properties-common
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+apt-get -y update
+#apt-get -y purge x11-utils
+# we are installing some basic packages,
+# you can install your own
+#apt-get -y install <YOUR_PACKAGE>
+
+# install some basic tools
+apt-get -y install curl tar gzip wget
+
+#java and R 
+apt-get -y install default-jre  r-base
+
+
+# missing R !!!
+
+apt-get clean
+apt-get autoremove
+
+%post
+
+curl -sSL  "https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss-2.6.3-gridss-jar-with-dependencies.jar" > gridss.jar
+#wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss-2.6.3-gridss-jar-with-dependencies.jar 
+wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss.config.R 
+wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss.sh 
+wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss_annotate_insertions_repeatmaster.R 
+wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss_somatic_filter.R 
+wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/libgridss.R 
+
+chmod uga+x gridss.sh
+
