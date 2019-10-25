@@ -88,7 +88,6 @@
 | domain_expiration_date| XXX |
 | domain_extension_contract_email | XXX |
 | domain_extension_contract_phone | XXX |
-|
 | GPU_card | Cirrus Logic GD 5446 |
 | network_card | Red Hat, Virtio network device |
 | hard_drive_1 | /     48G !!! |
