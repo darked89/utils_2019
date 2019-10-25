@@ -1,0 +1,138 @@
+\documentclass[tikz, border=10pt]{standalone}
+
+\usetikzlibrary{positioning,shapes,arrows,calc}
+
+
+\begin{document}
+
+%\nodeDistA=10mm
+\newdimen\nodeDistB
+\nodeDistB=20mm
+
+\tikzset{
+    position/.style args={#1:#2 from #3}{
+        at=(#3.#1), anchor=#1+180, shift=(#1:#2)
+    }
+}
+
+\tikzset{
+	rotate around with nodes/.style args={#1:#2}{
+		rotate around={#1:#2},
+		set node rotation={#1},
+	},
+	rotate with/.style={rotate=\qrrNodeRotation},
+	set node rotation/.store in=\qrrNodeRotation,
+}
+
+\begin{tikzpicture}
+%\fontfamily{hvmath}{\fontsize{15}{15}\selectfont
+%\tikzset{every node}==[font=\sffamily]
+  [
+    circle type 1/.style={draw=none,align=center, font=\scriptsize},
+  ]
+  
+  \coordinate (c1) at (0,0);
+  \coordinate (c2) at (6,0);
+  \coordinate (c3) at (0,-6);
+  \coordinate (c4) at (-6,0);
+  \coordinate (c5) at (0,6);
+  \coordinate (tu) at (2.95, 2.5);
+  \coordinate (um1) at ($(tu) - (0,1)$);
+  \coordinate (um2) at ($(tu) + (1,0)$);
+  
+  \newlength{\smallercircle}
+
+
+
+  \foreach \i / \j [count=\ino] in {6/'',  0.75/fgdsfg, 0.25/fsgsdgf}
+    {
+     \pgfmathsetmacro{\colmixer}{mod(10*\ino,100)}%
+     \path [draw, fill=blue!\colmixer] (c1) ++(0,-\i) arc (-90:270:\i);
+     %\ifnum\ino<7
+     %  \setlength{\smallercircle}{\i}
+     %  \addtolength{\smallercircle}{-7.5pt}
+       %\path [decoration={text along path, text={\j}, text align=center, reverse path}, decorate] (c2) ++(0,-\smallercircle) arc (-90:270:\smallercircle);
+    
+    }
+  \draw[densely dashdotted] (c4) -- ($(c1) - (0.75,0)$); 
+  \draw[densely dashdotted, red] ($(c1) +  (0.75,0)$) -- (c2); 
+  \draw[densely dashdotted] (c3) -- ($(c1) - (0,0.75)$); 
+  \draw[densely dashdotted] ($(c1) + (0,0.75)$)  -- (c5); 
+  
+   \draw[densely dashdotted] ($(c1) +  (0.75,0)$) -- (c2);
+   
+  %\draw[|->|, rotate around={45:(3,0)}] ($(c1) +  (0.75,0)$) -- (c2)  node [midway,fill=white] {$3a$};
+  
+  %\draw[|->|, rotate around with nodes={45:(0.75,0)}]
+ % (0.75,0) -- (c2) node [midway, fill=white, rotate with] {$foo$};
+  
+  
+  \draw[red, <->|, rotate around with nodes={62:(0,0)}]
+  (0.75,0) -- (6,0) node [midway,sloped,above, rotate with] {\large{$linia\ resekcji\ 1$}};
+  
+   \draw[red, <->|, rotate around with nodes={12:(0,0)}]
+  (0.75,0) -- (6,0) node [midway,sloped,below, rotate with] {\large{$linia\ resekcji\ 2$}};
+  
+  \node[circle,draw=black,fill=red,inner sep=0pt,minimum size=20pt, label=above:{\small{$PT$}}] (TU) at (tu) {};
+  
+    \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=above:{\small{$UM2$}}, node distance=0.8,above right = of TU] (UM2) {};
+    
+        \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=right:{\small{$UM1$}}, node distance=0.8,below left = of TU] (UM1) {};
+  
+    \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=above:{\small{$UM14$}}, node distance=0.8,above left = of UM2] (UM14) {}; 
+    
+        \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt, label=left:{\small{$UM13$}},] (UM13) at (5.1,1.3) {}; 
+     %% node distance=1.1,below = of UM2
+     \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=above :{\small{$UM100$}}] (UM100) at (4.5, 2.2) {};
+    
+
+  
+    \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=below:{\small{$UM11$}}, node distance=0.5, left = of UM1] (UM11) {};
+    
+    \node [circle,draw=black,fill=green,inner sep=0pt,minimum size=10pt,label=right:{\small{$UM12$}}, node distance=0.7,below right = of UM11] (UM12) {}; 
+  
+
+  
+  
+  
+   %\draw[rotate=30,label=left:{\small{$S$}}] (0.20,-6.0) ellipse (1cm and 0.5cm) ;
+   %\node [ellipse, draw=black,fill=white, rotate=25,label=below:{\footnotesize{$S1$}}]  (S1) at (2.5,-5.4) {  S1  } ;
+   
+   \node [ellipse, minimum width=1.5cm, draw=black,fill=white, rotate=-60]  (S1) at (5,3.4) { S };
+   
+   \node [ellipse, minimum width=1cm, draw=black,fill=white, rotate=-70]  (S100) at (5.7,2.0) { S100 };
+  %position=-60:
+  
+   \node [ellipse, minimum width=1.2cm, minimum height=0.50cm, draw=black,fill=white, rotate=-45]  (N1) at (4.5,6) {   } ;
+  \node [ellipse, minimum width=1.4cm, minimum height=0.55cm, draw=black,fill=white, rotate=-65]  (N2) at (6,4) {   } ;
+  
+  \node [ellipse, minimum width=1.5cm, minimum height=0.75cm, draw=black,fill=white, rotate=65]  (N2A) at (8,3.5) {   } ;
+  
+  \node [ellipse, minimum width=1.5cm, minimum height=0.75cm, draw=black,fill=white, rotate=-85]  (N3) at (6.8,1) {   } ;
+  
+   \node [ellipse, minimum width=1.5cm, minimum height=0.60cm, draw=black,fill=white, rotate=-85]  (N4) at (7,-1) {   } ;
+  
+  
+  
+
+  
+  \coordinate (lumphnode) at (7,2.5);
+  
+  \draw (N1.east) to[out=-2,in=-7] (N2.west);
+  \draw (N2.east) to[out=2,in=-5] (lumphnode);
+  \draw (N2A.west) to[out=2,in=-5] (lumphnode);
+  \draw (N3.west) to[out=2,in=-5] (lumphnode);
+  
+  \draw (N3.east) to[out=2,in=-7] (N4.west);
+  \draw (N4.east) to[out=0.1,in=-0.1] (6.5,-3.5);
+  
+  \node [circle,draw=black,fill=red,inner sep=0pt,minimum size=10pt,label=right:{\small{$LN2$}} ] (LN2)at (6,4) {};
+  
+  \node [circle,draw=black,fill=red,inner sep=0pt,minimum size=10pt,label=right:{\small{$LN1$}} ] (LN1) at (7,-1) {};
+  
+  %loosely dotted
+  %\draw (-8,-8) grid (10,10);
+  %%\draw [-Implies, line width=3pt] ($(c1)!1/3!(c2)$) -- ($(c1)!2/3!(c2)$);
+
+\end{tikzpicture}
+\end{document}

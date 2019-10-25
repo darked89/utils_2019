@@ -1,0 +1,25 @@
+mkdir -p far/raw/cabr/seqs/wgs/tum
+mkdir -p far/raw/cabr/seqs/wgs/mar
+mkdir -p far/raw/cabr/seqs/wgs/bld
+mkdir -p far/raw/cabr/seqs/wgs/ctr
+mkdir -p far/raw/cabr/seqs/rna/tum
+mkdir -p far/raw/cabr/seqs/rna/mar
+mkdir -p far/raw/cabr/seqs/rna/bld
+mkdir -p far/raw/cabr/seqs/rna/ctr
+mkdir -p far/raw/cabr/seqs/met/tum
+mkdir -p far/raw/cabr/seqs/met/mar
+mkdir -p far/raw/cabr/seqs/met/bld
+mkdir -p far/raw/cabr/seqs/met/ctr
+mkdir -p far/raw/cabr/seqs/exo/tum
+mkdir -p far/raw/cabr/seqs/exo/mar
+mkdir -p far/raw/cabr/seqs/exo/bld
+mkdir -p far/raw/cabr/seqs/exo/ctr
+mkdir -p far/raw/cabr/seqs/tgt/tum
+mkdir -p far/raw/cabr/seqs/tgt/mar
+mkdir -p far/raw/cabr/seqs/tgt/bld
+mkdir -p far/raw/cabr/seqs/tgt/ctr
+mkdir -p far/raw/cabr/seqs/oth/tum
+mkdir -p far/raw/cabr/seqs/oth/mar
+mkdir -p far/raw/cabr/seqs/oth/bld
+mkdir -p far/raw/cabr/seqs/oth/ctr
+

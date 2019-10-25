@@ -1,0 +1,41 @@
+BootStrap: library
+From: alpine:latest
+
+%runscript
+# run your script here.
+
+# check if there any arguments,
+if [ -z "$@" ]; then
+    # if theres non, test julia:
+    echo 'println("hello world from sambamba 0.70 container!!!")' | sambamba
+else
+    # if theres an argument, then run it! and hope its a sambamba command
+    sambamba "$@"
+fi
+
+
+%environment
+export PATH=/sambamba:$PATH
+export LC_ALL=C
+
+%post
+
+# we are installing some basic packages,
+# you can install your own
+#apt-get -y install <YOUR_PACKAGE>
+apk update
+
+# install some basic tools
+apk add curl tar gzip
+
+
+# now, download and install sambamba
+mkdir /sambamba
+cd /sambamba
+curl -sSL "https://github.com/biod/sambamba/releases/download/v0.7.0/sambamba-0.7.0-linux-static.gz" > sambamba.gz
+gunzip sambamba.gz
+
+chmod uga+rx sambamba
+
+
+

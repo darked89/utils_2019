@@ -1,0 +1,1 @@
+tumor_gene_count/tumor_total * margin_total/margin_gene_count

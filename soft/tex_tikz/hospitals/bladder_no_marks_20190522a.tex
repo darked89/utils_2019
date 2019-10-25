@@ -1,0 +1,60 @@
+\documentclass[border=.1in]{standalone}
+    
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+    
+    \usepackage{graphicx}
+    \usepackage{tikz}
+    
+    \usetikzlibrary{shapes,decorations.text,positioning,arrows,calc}
+
+    \begin{document}
+
+\begin{tikzpicture}
+	  
+	%\coordinate (c1) at (-6.43,0);
+	%\coordinate (c2) at (6.78,0);
+	   
+	%\draw[densely dashdotted] (c1) -- node [sloped,below left] {\small{linia cięcia podłużnego}} (c2); 
+	   
+	\coordinate (tu) at (2.0, 1.5);
+	%%\draw[thick,green] ([shift=(30:1cm)]6,0) arc (15:180:6cm);
+	% \draw[ very thick,green] ([shift=(0:0)]6,0) arc (0:180:6cm);
+	    
+	\coordinate (upperred) at (7,0);
+	\coordinate (left_vesicle) at (-7,0);
+	\coordinate (rightred) at (3.6,0.7);
+	\draw[thick] (upperred) arc[start angle=0,end angle=180,x radius=70mm, y radius=50mm];
+	     
+	\draw[thick] (upperred) arc[start angle=0,end angle=-85,x radius=70mm, y radius=80mm];
+	\draw[thick] (left_vesicle) arc[start angle=-180,end angle=-95,x radius=70mm, y radius=80mm];
+	      
+	%\draw[thick] (-1, -8) arc[start angle=-180,end angle=95,x radius=70mm, y radius=80mm];
+	\draw[thick] (-0.63, -7.98) --  node [left] {\large{$cewka$}} (-0.5, -10);
+	      
+	\draw[thick] (0.63, -7.98) -- (0.5, -10);
+	% \draw[thick,yellow] (left_vesicle)  arc (-130:60:1);
+	%\draw[very thick,blue] ([shift=(0:0)]6,0) arc (0:180:6.2cm);
+	%\draw [red,thick,domain=0:180] plot ({cos(\x)}, {sin(\x)});
+	%\draw [blue,thick,domain=180:270] plot ({cos(\x)}, {sin(\x)});
+	   
+	
+	\node [label=below:{\huge{R}} ] (R) at (-8.5,2.5) {};
+	\node [label=below:{\huge{L}} ] (L) at (8.5,2.5) {};
+	
+	
+	\draw[red, densely dashdotted] (-8,-1.5) -- (8, -1.5); 
+	\draw[red, densely dashdotted] (0.0,-9) -- (0.0, 6); 
+	 
+
+	  
+	
+	%% nodes
+
+	
+	%demo
+	%\draw (-10,-10) grid (10,8);
+	
+\end{tikzpicture}
+\end{document}
