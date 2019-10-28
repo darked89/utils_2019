@@ -1,9 +1,11 @@
-# What to do if you are here?
+Repository containing:
 
-1. Click on the left side panel link: Wiki
+1. markdown pages from GitLab wiki describing installed programs
 
-1. check the existing documentation by simply clicking on the links on the page 
+2. python scripts for the parts of NGS pipelines
 
-1. start editing any of the files located in the section: Sandbox
+3. few singularity containers
+
+
 
 
