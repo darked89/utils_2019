@@ -17,9 +17,9 @@ fi
 
 
 %environment
-export PATH=/:$PATH
+export PATH=/gridss:$PATH
 export LC_ALL=C
-export GRIDSS_JAR=/gridss.jar
+export GRIDSS_JAR=/gridss/gridss.jar
 
 %post
 
@@ -38,13 +38,17 @@ apt-get -y install curl tar gzip wget
 #java and R 
 apt-get -y install default-jre  r-base
 
+# gcc make
+apt-get -y install make gcc zlib1g-dev
 
-# missing R !!!
 
 apt-get clean
 apt-get autoremove
 
 %post
+
+mkdir gridss
+cd gridss
 
 curl -sSL  "https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss-2.6.3-gridss-jar-with-dependencies.jar" > gridss.jar
 #wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss-2.6.3-gridss-jar-with-dependencies.jar 
@@ -55,4 +59,22 @@ wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/gridss_soma
 wget https://github.com/PapenfussLab/gridss/releases/download/v2.6.3/libgridss.R 
 
 chmod uga+x gridss.sh
+
+
+# bwa from source
+curl -sSL 'https://github.com/lh3/bwa/releases/download/v0.7.17/bwa-0.7.17.tar.bz2' > bwa.tar.bz2
+tar xfv bwa.tar.bz2
+cd bwa-0.7.17 
+make
+mv -i bwa ../
+cd ../
+
+rm bwa.tar.bz2
+rm -Rf bwa-0.7.17/
+
+#sambamba 
+curl -sSL "https://github.com/biod/sambamba/releases/download/v0.7.0/sambamba-0.7.0-linux-static.gz" > sambamba.gz
+gunzip sambamba.gz
+chmod uga+rx sambamba
+
 
