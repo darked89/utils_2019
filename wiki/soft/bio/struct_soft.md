@@ -15,9 +15,9 @@
 | paper| https://genome.cshlp.org/content/27/12/2050.full |
 | citations_num | 20 (from 2017)|
 | obtained_from |https://github.com/PapenfussLab/gridss/releases |
-| version | 2.6.2 |
-| version_date |  2019.09.23 |
-| last_ver_check | 2019.10.05 |
+| version | 2.6.3 |
+| version_date |  2019.10.21 |
+| last_ver_check | 2019.10.28 |
 | activity_main | active |
 | activity_dev| active |
 | issues_github | active |
@@ -27,7 +27,7 @@
 | requirements_1 | java 1.8 |
 | requirements_2 | R > 3.5 |
 | install_1 | foo-server|
-| install_1_path | /opt/soft/gridss_2.6.2 |
+| install_1_path | /opt/soft/gridss_2.6.3 |
 | install_1_admin | darked |
 | install_1_date | 2019.10.05 |
 | install_2 | bar-server|
