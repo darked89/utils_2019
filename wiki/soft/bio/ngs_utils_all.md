@@ -13,7 +13,8 @@
         - [multiqc](#multiqc)
         - [QoRTs](#qorts)
     - BED/BAM etc. utils
-        - [Bedtools](#bedtools)
+        - [bedtools](#bedtools)
+        - [bedops](#bedops)
         - [bam-readcount](#bam-readcount)
         - [bamutil](#bamutil)
     - kmer
@@ -108,16 +109,28 @@
 | repo | ?? |
 | lang | java/shell/? |
 | obtained_from | https://sourceforge.net/projects/bbmap/files/ |
-| version | 38.67 |
-| version_date |  2019.09.04 |
-| last_ver_check | 2019.09.09 |
+| version | 38.70 |
+| version_date |  2019.10.25 |
+| last_ver_check | 2019.10.28 |
 | requirements_1 | java |
 | install_1| foo-server|
-| install_1_dir | /opt/soft/bbmap_38.67 |
+| install_1_dir | /opt/soft/bbmap_38.70 |
+| install_1_admin | darked |
 | install_2| bar-server |
 | install_2_dir | /opt/soft/bbmap_38.67 |
+| install_2_admin | darked |
+### installation
 
-#### primary use(s)
+```
+#download on a command line:
+
+curl -sSL "https://sourceforge.net/projects/bbmap/files/BBMap_38.70.tar.gz/download" > BBMap_38.70.tar.gz
+tar xfv BBMap_38.70.tar.gz
+
+```
+
+
+### primary use(s)
 * cluster and simplify fastq read names ( clumpify.sh )
 ```
 #example command
@@ -218,7 +231,7 @@ GCAGCCTG
 | repo | https://github.com/hartleys/QoRTs |
 | lang_1 | java |
 | lang_2 | R |
-| obtained_from | https://github.com/hartleys/QoRTs|
+| obtained_from | https://github.com/hartleys/QoRTs/archive/v1.3.6.tar.gz |
 | version | 1.3.6 |
 | version_date |  2019.03.26  |
 | last_ver_check | 2019.09.12 |
@@ -343,7 +356,6 @@ make test
 
 
 
-# 2 check
 
 
 
@@ -419,14 +431,26 @@ https://github.com/ngsutils/ngsutils
 | repo |  https://github.com/bedops/bedops |
 | lang | C++ |
 | obtained_from | https://github.com/bedops/bedops/releases/download/v2.4.36/bedops_linux_x86_64-v2.4.36.tar.bz2 |
-| version | 2.4.36) |
+| version | 2.4.37 |
 | version_date | 2019.05.02 |
-| last_ver_check | 2019.09.12 |
-| install_1| mab@task |
-| install_1_dir | /opt/soft/bedops_2.4.36/ |
+| last_ver_check | 2019.10.28 |
+
+| install_1| foo-server |
+| install_1_dir | /opt/soft/bedops_2.4.37/ |
+| install_1_admin | darked |
+
 | install_2 | bar-server |
 | install_2_dir | /opt/soft/bedops_2.4.36/ |
+| install_2_admin | darked |
 
+### install
+```
+# distributed as a precompiled binaries
+# caution: tar is unpacking to ./bin
+
+```
+
+### usage
 ```
 #example usage
 awk '{ if ($0 ~ "transcript_id") print $0; else print $0" transcript_id \"\";"; }' gencode.v31.annotation.no_head.gtf  | gtf2bed - > \

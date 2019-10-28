@@ -237,3 +237,6 @@ Executed 36 out of 36 tests: 34 tests pass and 2 fail locally.
 "Scalable Open Science Approach for Mutation Calling of Tumor Exomes Using Multiple Genomic Pipelines" Ellrott K, Bailey MH, Saksena G, Covington KR, Kandoth C, Stewart C, Hess J, Ma S, Chiotti KE, McLellan M, Sofia HJ, Hutter C, Getz G, Wheeler D, Ding L; MC3 Working Group; Cancer Genome Atlas Research Network. Cell Syst. 2018 Mar 28;6(3):271-281.e7. doi: 10.1016/j.cels.2018.03.002. PubMed PMID: 29596782. (http://www.cell.com/cell-systems/fulltext/S2405-4712(18)30096-6)
 ```
 
+# varia
+
+* PHEnix:  Public Health England SNP calling pipeline. http://phenix.readthedocs.io/en/latest/
