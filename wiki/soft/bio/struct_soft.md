@@ -338,6 +338,7 @@ repo: https://github.com/walaj/svaba
 
 https://github.com/Illumina/strelka
 
+/opt/soft/strelka_2.9.10
 ## svtools
 
 Tools for processing and analyzing structural variants
@@ -355,7 +356,7 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006080
 
 ## truvari
 
-comparison of variant detected by 2 pakcages
+comparison of variant detected by 2 packages
 
 https://github.com/spiralgenetics/truvari
 
@@ -366,3 +367,10 @@ https://github.com/raphael-group/NAIBR
 ## Kevlar Titus Brown alignment free
 
 https://github.com/kevlar-dev/kevlar
+
+
+### Neusomatic
+
+* https://www.nature.com/articles/s41467-019-09027-x
+
+* https://github.com/bioinform/neusomatic
