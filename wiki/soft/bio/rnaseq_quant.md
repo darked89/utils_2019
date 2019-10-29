@@ -1,3 +1,11 @@
+# TOC
+- extract counts/quantify (primary)
+    - [RSEM](#rsem)
+    - [HTseq](#htseq)
+- differential expression
+    - [DESeq2](#deseq2)
+    - [edgeR](#edger)
+
 
 # Quantification
 
@@ -177,6 +185,11 @@ featureCounts from subread
 
 # kallisto (aligment semi-free quantification)
 https://github.com/pachterlab/kallisto
+
+# sleuth
+
+https://github.com/pachterlab/sleuth
+
 
 # try limma + voom
 https://ucdavis-bioinformatics-training.github.io/2018-June-RNA-Seq-Workshop/thursday/DE.html
