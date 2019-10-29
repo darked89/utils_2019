@@ -57,16 +57,16 @@
 | repo | https://github.com/broadinstitute/picard |
 | lang | java |
 | obtained_from | https://github.com/broadinstitute/picard/releases/download/2.21.1/picard.jar |
-| version | 2.21.1 |
-| version_date |  2019.10.03 |
-| last_ver_check | 2019.10.06 |
+| version | 2.21.2 |
+| version_date |  2019.10.29 |
+| last_ver_check | 2019.10.29 |
 | requirements_1 | java 1.8 |
 | documentation | http://broadinstitute.github.io/picard/ |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/picard_current/ |
 | install_1_admin | darked |
 | install_2 | bar-server |
-| install_2_dir | /opt/soft/picard_current/ |
+| install_2_dir | /opt/soft/picard_current/ (not updated recently) |
 | install_2_admin | darked |
 
 ### primary use(s)
@@ -564,7 +564,7 @@ vcfanno allows you to quickly annotate your VCF with any number of INFO fields f
 | first_release_year | 2011 |
 | www | http://www.genome.umd.edu/jellyfish.html  |
 | repo | https://github.com/gmarcais/Jellyfish |
-| lang | Dlang |
+| lang | C++ |
 | obtained_from | hhttps://github.com/gmarcais/Jellyfish/releases/download/v2.2.10/jellyfish-2.2.10.tar.gz |
 | version | 2.2.10 |
 | version_date |  2018.05.01 |
