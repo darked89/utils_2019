@@ -11,4 +11,7 @@ QuantiSNP
 GenoCN
 ```
 
-
+* 
+Kim J, Hu H, Yim S, Bae JS, Kim S, Chung Y. CNVRuler: a copy number variation-based case-control association analysis tool. Bioinformatics. 2012;28(13):1790-1792.
+https://doi.org/10.1093/bioinformatics/bts239
+ 
