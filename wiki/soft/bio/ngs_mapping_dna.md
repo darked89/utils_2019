@@ -6,7 +6,7 @@
     - [gem3](#gem3)
     - [last](#last)
     - [bowtie2](#bowtie2)
-    - [bowtie](#bowtie)
+    - [novoalign](#novoalign)
 - legacy, possibly needed for other packages
     - [Mosaic](#mosiac)
 ## bwa
@@ -33,6 +33,7 @@
 | test_data| ?? |
 | install_1| foo-server|
 | install_1_dir | /usr/local/bin/ |
+| install_1_admin | darked | 
 
 |
 
@@ -62,6 +63,7 @@
 | test_data| ?? |
 | install_1 | foo-server |
 | install_1_dir | /opt/soft/gem3_3.6.1a |
+| install_1_admin | darked | 
 | instal_1_note| no CUDA |
 
 
@@ -78,9 +80,9 @@
 | repo | http://last.cbrc.jp/last/  |
 | lang | C |
 | obtained_from | http://last.cbrc.jp/ |
-| version | 984 |
-| version_date |  2019.08.21 |
-| last_ver_check | 2019.09.06 |
+| version | 992 |
+| version_date |  2019.10.09 |
+| last_ver_check | 2019.10.31 |
 | activity_main | active  |
 | activity_dev|  ? |
 | issues_github | not on github |
@@ -90,7 +92,8 @@
 | doc| http://last.cbrc.jp/doc/ |
 | test_data| ?? |
 | install_1| foo-server|
-| install_1_dir | /opt/soft/last_984/ |
+| install_1_dir | /opt/soft/last_992/ |
+| install_1_admin | darked | 
 
 ### fixing the executables location for version specific install
 
@@ -131,7 +134,7 @@ Needs to be fixed
 | obtained_from | https://github.com/BenLangmead/bowtie2/releases/download/v2.3.5.1/bowtie2-2.3.5.1-linux-x86_64.zip |
 | version | 2.3.5.1 |
 | version_date |  2019.04.17 |
-| last_ver_check | 2019.06.17 |
+| last_ver_check | 2019.10.31 |
 | activity_main | active  |
 | activity_dev|  ? |
 | issues_github | active |
@@ -142,8 +145,35 @@ Needs to be fixed
 | test_data| ?? |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/bowtie2_2.3.5.1/ |
+| install_1_admin | darked |
 
-## bowtie
+
+## novoalign 
+
+| Property | value |
+| ------ | ------ |
+| prog_name | novoalign |
+| publication | ??? |
+| citations_num | ??? |
+| first_release_year | ??? |
+| www |  http://bowtie-bio.sourceforge.net/bowtie2/index.shtml  |
+| repo | https://github.com/BenLangmead/bowtie2  |
+| lang | C++ |
+| obtained_from | http://www.novocraft.com/support/download/ |
+| version | 3.09.04 |
+| version_date |  2019.10.04 |
+| last_ver_check | 2019.10.31 |
+| activity_main | active  |
+| activity_dev|  no github |
+| issues_github | no_gitgum |
+| requirements_1 | ??  |
+| requirements_2 | ?? |
+| tutorial | ?? |
+| doc |/opt/soft/novocraft_3.09.04/NovoalignReferenceManualV3.09.pdf |
+| test_data| ?? |
+| install_1| foo-server |
+| install_1_dir | /opt/soft/novocraft_3.09.04/ |
+| install_1_admin | darked |
 
 
 
