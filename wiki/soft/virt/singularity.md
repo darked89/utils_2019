@@ -28,7 +28,7 @@
 
 The .def files are in: 
 ```
-https://copper.gumed.edu.pl/mab_projects/mab_it/tree/master/soft/containers/singularity
+https://github.com/darked89/utils_2019/tree/master/soft/containers/singularity
 ```
 
 * sambamba_0.7.0_alpine.def

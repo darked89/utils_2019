@@ -18,7 +18,7 @@
 
 * keep the patient/person ID **unchanged** in all the experimental data. 
 
-* if not created by the MAB database system, the patient_id should be: 
+* if not created by the in house database system, the patient_id should be: 
 2 letters researcher (responsible for the patient sample collection) initial
 followed by 4 numbers.
 
@@ -48,7 +48,7 @@ alz-dk0123
 cbr-ak0125_PT
 ```
 
-* if not provided with a sample code id from the MAB database:
+* if not provided with a sample code id from the in house  database:
 
 provide the sample number: 
 0 for the first sample of that type (i.e. the tube #1 of blood used for DNA extraction)
@@ -72,7 +72,7 @@ currently I started to use the following system:
 
 cbrako-fix034_PT_0_9
 cbr  = > ca breast (major disease prefix)
-ako =>  specific project / sample source if applicable. Can be mab for all samples stored here
+ako =>  specific project / sample source if applicable. Can be xyz for all samples stored here
 fix034 => internal to that project patient id
 PT => tissue type
 _0_9 => biological-replicate_technical-replicate

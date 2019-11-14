@@ -1,4 +1,4 @@
-# SLURM on mab@TASK
+# SLURM on foo-server
 
 
 ## testing the install
