@@ -767,7 +767,7 @@ NImble and Robust VAriant aNnotAtor
 | requirements_2 | ?? |
 | documentation | https://github.com/Illumina/Nirvana/wiki  |
 | test_data| ?? |
-| install_1| mab@TASK|
+| install_1| foo-server|
 | install_1_dir | /mnt/vdb1/soft/nirvana_2.0.9 |
 | status | test script passed |
 
@@ -858,7 +858,7 @@ output: json
 | requirements_2 | ?? |
 | documentation | https://2020plus.readthedocs.io/en/latest/ |
 | test_data| ?? |
-| install_1| mab@TASK|
+| install_1| foo-server|
 | install_1_dir | /opt/soft/2020plus_1.2.3/ |
 | status | not tested |
 
@@ -883,7 +883,7 @@ https://github.com/hall-lab/speedseq
 lftp gsapubftp-anonymous@ftp.broadinstitute.org/bundle/oncotator/
 # empty passwd, press enter
 get oncotator_v1_ds_April052016.tar.gz
-# 15GB download, ~2hrs on mab@TASK 
+# 15GB download, ~2hrs on foo-server 
 
 wget https://github.com/broadinstitute/oncotator/archive/v1.9.9.0.tar.gz
 tar xfvz v1.9.9.0.tar.gz
