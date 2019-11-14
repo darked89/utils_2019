@@ -2,6 +2,7 @@
 
 -  [GRIDSS](#gridss)
 -  [Manta](#manta)
+-  [strelka](#strelka)
 -  [Control-FREEC](#control-freec)
 -  [FusorSV/SVE](#sve )
     
@@ -334,11 +335,33 @@ https://academic.oup.com/gigascience/article/8/4/giz040/5477467
 https://genome.cshlp.org/content/28/4/581.full
 repo: https://github.com/walaj/svaba
 
-## Strelka & strelka2
+## Strelka
 
-https://github.com/Illumina/strelka
 
-/opt/soft/strelka_2.9.10
+| Property | value |
+| ------ | ------ |
+| prog_name | strelka |
+| paper | ?? |
+| citations_num | ??|
+| www | ??? |
+| repo | https://github.com/Illumina/strelka/ |
+| obtained_from | https://github.com/Illumina/strelka/releases/download/v2.9.10/strelka-2.9.10.release_src.tar.bz2 |
+| version | 2.9.10 |
+| version_date |  2018.11.08 |
+| last_ver_check | 2019.11.14 |
+| activity_main | slow ( Feb 2019) |
+| activity_dev| none |
+| issues_github | active |
+| lang_1 | c++ |
+| lang_2 |  python |
+| example | ?? |
+| requirements_1 | ??|
+| install_1 | foo-server |
+| install_1_path | /opt/soft/strelka_2.9.10 |
+| install_1_admin | darked |
+| install_1_date | 2019.10.29 |
+
+### status: untested
 ## svtools
 
 Tools for processing and analyzing structural variants
