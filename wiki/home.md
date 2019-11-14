@@ -22,7 +22,11 @@
                 * [SNP etc](/soft/bio/snp_mutations)
                 * [annotation](/soft/bio/annot_mutations) 
                 * [structural variation](/soft/bio/struct_soft)
+                * [CNV software (genotyping & NGS)](/soft/bio/cnv_soft)
                 * [virus detection](/soft/bio/virus_detect)
+            * RNA-seq quantification 
+                * [RSEM](/soft/bio/rnaseq_quant#rsem)
+                * [DESeq2](/soft/bio/rnaseq_quant#deseq2)
             * kinship tools
                 * [akt from Illumina](/soft/bio/akt)
         * statistical
