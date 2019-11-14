@@ -56,7 +56,7 @@
 | www | http://broadinstitute.github.io/picard/  |
 | repo | https://github.com/broadinstitute/picard |
 | lang | java |
-| obtained_from | https://github.com/broadinstitute/picard/releases/download/2.21.1/picard.jar |
+| obtained_from | https://github.com/broadinstitute/picard/releases/download/2.21.2/picard.jar |
 | version | 2.21.2 |
 | version_date |  2019.10.29 |
 | last_ver_check | 2019.10.29 |
@@ -96,7 +96,7 @@
 ### primary use(s)
 * view/sort SAM/BAM/CRAM files
 
-### BBMap
+## BBMap
 
 | Property | value |
 | ------ | ------ |
@@ -109,9 +109,9 @@
 | repo | ?? |
 | lang | java/shell/? |
 | obtained_from | https://sourceforge.net/projects/bbmap/files/ |
-| version | 38.70 |
-| version_date |  2019.10.25 |
-| last_ver_check | 2019.10.28 |
+| version | 38.71 |
+| version_date |  2019.10.30 |
+| last_ver_check | 2019.10.31 |
 | requirements_1 | java |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/bbmap_38.70 |
@@ -124,8 +124,14 @@
 ```
 #download on a command line:
 
-curl -sSL "https://sourceforge.net/projects/bbmap/files/BBMap_38.70.tar.gz/download" > BBMap_38.70.tar.gz
-tar xfv BBMap_38.70.tar.gz
+curl -sSL "https://sourceforge.net/projects/bbmap/files/BBMap_38.71.tar.gz/download" > BBMap_38.71.tar.gz
+tar xfv BBMap_38.71.tar.gz
+
+mv bbmap bbmap_38.71
+
+mv -i bbmap_38.71/ /opt/soft/
+cd /opt/soft/
+ln -s bbmap_38.71 bbmap_current
 
 ```
 
@@ -378,7 +384,7 @@ An approximate sequence pattern matcher for FASTQ/FASTA files.
 | version_date | 2016.01.22|
 | last_ver_check | 2019.06.25 |
 | requirements_1 | libtre-dev |
-| install_1| mab@task |
+| install_1| foo-server |
 | install_1_dir | /opt/soft/fqgrep_0.4.4/|
 
 
@@ -476,7 +482,7 @@ gencode.v31.annotation.no_head.bed
 | last_ver_check | 2019.09.04 |
 | requirements_1 | libStatGen |
 | requirements_1_repo | https://github.com/statgen/libStatGen |
-| install_1| mab@task |
+| install_1| foo-server |
 | install_1_dir | /opt/soft/bamutil_20190617/ |
 | install_2 | bar-server |
 | install_2_dir | /opt/soft/bamutil_20190904/ |
