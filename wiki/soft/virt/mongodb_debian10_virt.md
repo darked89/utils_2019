@@ -43,39 +43,28 @@ sh VBoxLinuxAdditions.run
 ## mongodb install
 
 ```
- 1  cd /home/darked/
-    2  cd Downloads/
-    3  ls -ltr
-    4  dpkg -i mongodb-org-server_4.2.1_amd64.deb 
-    5  apt-get install libcurl4 
-    6  dpkg -i mongodb-org-server_4.2.1_amd64.deb 
-    7  service mongodb start 
-    8  df
+# as root
+
+apt-get install libcurl4
+#caveat: do not install mongo-tools using apt-get
 
 
-   18  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 4B7C549A058F8B6B
-   19  echo "deb http://repo.mongodb.org/apt/debian "$(lsb_release -sc)"/mongodb-org/4.2 main" | sudo tee /etc/apt/sources.list.d/mongodb.list
-   20  apt-update
-   21  apt update
-   22  apt install mongodb-org
-   23  dpkg --get-selections | grep mongo
-   24  apt purge mongo-tools 
-   25  apt install mongodb-org
-   26  apt --fix-broken install 
-   27  apt remove mongo-tools 
-   28  apt --fix-broken install 
-   29  apt remove mongo-tools 
-   30  apt --help
-   31  apt remove --help
-   32  man apt 
-   33  man apt-get
-   34  dpkg --remove mongo-tools 
-   35  apt --fix-broken install 
-   36  systemctl start mongod.service
-   37  mongod --version
-   38  history 
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 4B7C549A058F8B6B
+echo "deb http://repo.mongodb.org/apt/debian "$(lsb_release -sc)"/mongodb-org/4.2 main" | sudo tee /etc/apt/sources.list.d/mongodb.list
 
-   16  systemctl enable mongod.service 
-   17  reboot now
+apt update
+apt install mongodb-org
+# check
+dpkg --get-selections | grep mongo
+
+# start mongodb
+systemctl enable mongod.service 
+systemctl start mongod.service
+
+# check that it is running
+mongod --version
+
+# optional
+reboot now
 ```
 
