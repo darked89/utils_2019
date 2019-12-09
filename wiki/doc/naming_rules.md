@@ -29,9 +29,9 @@ dk9999
 pm0543
 ```
 
-* merge prefix (project) with patient_id using one dash "-"
+* merge prefix (project) with patient_id using one underscore "_"
 ```
-alz-dk0123
+alz_dk0123
 ```
 
 * provide a code for the tissue
@@ -45,7 +45,7 @@ alz-dk0123
 
 * merge with project code & patient_id using underscore
 ```
-cbr-ak0125_PT
+cbr_ak0125_PT
 ```
 
 * if not provided with a sample code id from the in house  database:
@@ -55,9 +55,9 @@ provide the sample number:
 1, 2 etc for the subsequent **material** preparations from the given patient-sampletype combo
 
 ```
-cbr-ak0125_PT_0
+cbr_ak0125_PT_0
 
-cbr-ak0125_PT_1
+cbr_ak0125_PT_1
 ```
 
 * in case of repeating the experiment, i.e. re-sequencing the same sample, lets add another number. To be discussed  
@@ -70,7 +70,7 @@ Hello,
 
 currently I started to use the following system:
 
-cbrako-fix034_PT_0_9
+cbrako_fix034_PT_0_9
 cbr  = > ca breast (major disease prefix)
 ako =>  specific project / sample source if applicable. Can be xyz for all samples stored here
 fix034 => internal to that project patient id
@@ -82,19 +82,19 @@ I also used PT_13_0 for the tumor in the same patient after remission.
 Above system is a quick fix for tissue samples stored in tubes labeled with non-consistent patient id's followed by generating ~10k sequencing files with groups of 4-8 with ~identical patient/tissue identifiers (fix034_PT.result,  fix034PT.result, fix034-PT.result,  fix034PT.result, etc).
 
 Since we will get the unique ids for all the tissue samples, we can do:
-a) cbrako-fix034_PT_xd2f_9 (where xd2f is some unique string to identify tumor samples from fix034 patient
+a) cbrako_fix034_PT_xd2f_9 (where xd2f is some unique string to identify tumor samples from fix034 patient
 b) enumerate tumor/blood samples from a given patient 
 xd2f 0 
 jk5p 1 
 
-keep the  cbrako-fix034_PT_0_1
+keep the  cbrako_fix034_PT_0_1
 c) go for an overkill
-cbrako-fix034_PT_0_1.xd2f.
+cbrako_fix034_PT_0_1.xd2f.
 
 where xd2f will be id for DNA/RNA prep.
 
 I am concatenating labels for a various processing steps for each of the data files:
-cbrako-fix039_PT_0_2.rna.mrgd_4.clump.r12.star_hg38p13.md.bam
+cbrako_fix039_PT_0_2.rna.mrgd_4.clump.r12.star_hg38p13.md.bam
 
 to minimize the chance of screwing things and be able to figure out things in a week or in a year from now. But it is a non-trivial problem.
 
