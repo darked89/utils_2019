@@ -6,6 +6,6 @@ Repository containing:
 
 3. few singularity containers
 
-
+Check the Wiki containing sanitized/simplified documentation of bioinformatics & other software used
 
 
