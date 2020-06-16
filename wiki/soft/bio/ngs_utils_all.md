@@ -571,7 +571,7 @@ vcfanno allows you to quickly annotate your VCF with any number of INFO fields f
 | www | http://www.genome.umd.edu/jellyfish.html  |
 | repo | https://github.com/gmarcais/Jellyfish |
 | lang | C++ |
-| obtained_from | hhttps://github.com/gmarcais/Jellyfish/releases/download/v2.2.10/jellyfish-2.2.10.tar.gz |
+| obtained_from | https://github.com/gmarcais/Jellyfish/releases/download/v2.2.10/jellyfish-2.2.10.tar.gz |
 | version | 2.2.10 |
 | version_date |  2018.05.01 |
 | last_ver_check | 2019.06.24 |
@@ -601,6 +601,37 @@ jellyfish count -m 8 -s 3G -t 16 --bc 06a_S2_L001_r12.bc 06a_S2_L001_r1.fq 06a_S
 
 ```
 
+## SRA toolkit NCBI
+
+ncbi SRA Tools: https://github.com/ncbi/sra-tools
+| Property | value |
+| ------ | ------ |
+| prog_name | sratoolkit |
+| publication | ? |
+| citations_num | ? |
+| first_release_year | 2011 |
+| wiki | https://github.com/ncbi/sra-tools/wiki |
+| repo |  https://github.com/ncbi/sra-tools |
+| lang | C++ |
+| obtained_from | https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.10.7/sratoolkit.2.10.7-ubuntu64.tar.gz |
+| version | 2.10.7 |
+| version_date |  2020.05.27 |
+| last_ver_check | 2020.06.16 |
+| requirements_1 | ?? |
+| install_1 | vagrant_deb_buster|
+| install_1_dir |  |
+
+### Comments
+
+Works faster using Aspera Client or rather aspera cli software.
+Get it from: https://downloads.asperasoft.com/
+
+### usage
+```
+# to get the particular run:
+
+prefetch SRR5272532
+```
 
 # 2 test (possibly)
 
