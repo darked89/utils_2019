@@ -10,9 +10,9 @@ GUI program to transfer files using sftp protocol from/to Linux servers. Windows
 | wikipedia | https://en.wikipedia.org/wiki/FileZilla |
 | lang | C++ |
 | obtained_from | https://filezilla-project.org/download.php?platform=win64  |
-| version | 3.42.1|
-| version_date |  2019-05-08 |
-| last_ver_check | 2019.06.24 |
+| version | 3.48.1|
+| version_date |  2020-05-19 |
+| last_ver_check | 2020.07.02 |
 
 # legacy BAM and other file format transfer from CGHub
 
