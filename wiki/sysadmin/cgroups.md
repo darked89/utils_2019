@@ -17,6 +17,36 @@ The system exist under:
 cgroup-tools
 libpam-cgroup
 ```
+
+## centos / RedHat
+
+```
+yum install libcgroup
+yum install libcgroup-tools
+```
+
+## basic usage
+
+* lssubsys (info about cgroups system)
+
+```
+# Display information about hierarchies
+lssubsys -i
+
+# Display mount points
+
+lssubsys -m
+
+```
+
+* cgcreate (create new cgroup(s) )
+
+* cgdelete (delete cgroup(s) )
+
+* cgclear (unload the cgroups system)
+
+
+
 ## extra info
 
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
