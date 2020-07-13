@@ -13,15 +13,32 @@ Also:
 
 ```
 ls -l 
-# note the dot after the permissions:
--rw-rw-r--. 1 vagrant vagrant    0 Jul 13 12:30 foobar
+# note the dot after the permissions (acl available but empty):
+-rw-rw-r--. 1 vagrant vagrant    0 Jul 13 12:30 foobar.01 
+
+# plus sign means that acl are set for that file
+-rw-rw-r--+ 1 vagrant vagrant    0 Jul 13 12:30 foobar.02
 ```
 
 ## Commands:
 
-setfacl
-getfacl
+* setfacl & getfacl
 
+```
+# add rw access for someuser (someuser must exist)
+setfacl -m u:someuser:rw foobar
+
+getfacl foobar
+
+# file: foobar
+# owner: vagrant
+# group: vagrant
+user::rw-
+user:ldap:rw-
+group::rw-
+mask::rw-
+other::r--
+```
 
 ## More info
 
