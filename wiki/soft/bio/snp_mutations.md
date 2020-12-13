@@ -24,7 +24,9 @@
 | obtained_from | https://github.com/broadinstitute/gatk/releases/download/4.1.4.0/gatk-4.1.4.0.zip |
 | version | 4.1.4.0 |
 | version_date |  2019.10.08 |
-| last_ver_check | 2019.10.09 |
+| last_version | 4.1.9.0 |
+| last_version_date | 2020.10.10 |
+| last_ver_check | 2020.12.13 |
 | requirements_1 | java 8 |
 | requirements_2 | samtools |
 | documentation | https://software.broadinstitute.org/gatk/documentation/ |
