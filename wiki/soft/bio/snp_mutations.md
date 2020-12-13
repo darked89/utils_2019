@@ -71,11 +71,13 @@
 | first_release_year |  |
 | www |   http://samtools.github.io/bcftools |
 | repo | https://github.com/samtools/bcftools |
-| lang_1 | C|
+| lang_1 | C |
 | obtained_from | https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar.bz2 |
 | version | 1.9 |
 | version_date |  2018.07.18 |
-| last_ver_check | 2019.05.08 |
+| last_version | 1.11 |
+| last_version_date | 2020.09.22 |
+| last_ver_check | 2020.12.13 |
 | requirements | ??? |
 | documentation |  http://samtools.github.io/bcftools/howtos/index.html|
 | install_1| foo-server|
