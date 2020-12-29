@@ -33,12 +33,19 @@
 | repo | https://github.com/samtools/samtools |
 | lang | C |
 | obtained_from | https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 |
-| version | 1.9 |
-| version_date |  2018.07.18 |
-| last_ver_check | 2019.05.07 |
+| installed_version | 1.9 |
+| installed_version_date | 2018.07.18 |
+| newest_version | 1.11 |
+| newest_version_date |  2020.09.22 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | cc/gcc |
 | install_1| foo-server|
 | install_1_dir | /usr/local/bin/samtools |
+
+### notes
+
+Use libdeflate to build htslib first. Link: https://github.com/ebiggers/libdeflate
+
 
 ### primary use(s)
 * view/sort SAM/BAM/CRAM files
@@ -57,9 +64,11 @@
 | repo | https://github.com/broadinstitute/picard |
 | lang | java |
 | obtained_from | https://github.com/broadinstitute/picard/releases/download/2.21.2/picard.jar |
-| version | 2.21.2 |
-| version_date |  2019.10.29 |
-| last_ver_check | 2019.10.29 |
+| installed_version | 2.21.2 |
+| installed_version_date | 2019.10.29  |
+| newest_version | 2.23.9 |
+| newest_version_date |  2020.12.08 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | java 1.8 |
 | documentation | http://broadinstitute.github.io/picard/ |
 | install_1| foo-server|
@@ -86,15 +95,20 @@
 | repo | https://github.com/biod/sambamba |
 | lang | Dlang |
 | obtained_from | https://github.com/biod/sambamba/releases/download/v0.7.0/sambamba-0.7.0-linux-static.gz |
-| version | 0.7.0 |
-| version_date |  2019.05.29 |
-| last_ver_check | 2019.05.31 |
+| installed_version | 0.7.0 |
+| installed_version_date | 2019.05.29  |
+| newest_version | 0.8.0 |
+| newest_version_date |  2020.11.30 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | none (precompiled binary) |
 | install_1| foo-server|
 | install_1_dir | /usr/local/bin/sambamba_0.7.0 |
 
 ### primary use(s)
 * view/sort SAM/BAM/CRAM files
+
+**Comment:**
+As of 2020.12 at least in some common tasks not faster than samtools with the same level of multithreading. 
 
 ## BBMap
 
@@ -109,9 +123,11 @@
 | repo | ?? |
 | lang | java/shell/? |
 | obtained_from | https://sourceforge.net/projects/bbmap/files/ |
-| version | 38.71 |
-| version_date |  2019.10.30 |
-| last_ver_check | 2019.10.31 |
+| installed_version | 38.71 |
+| installed_version_date |  2019.10.30  |
+| newest_version | 38.87 |
+| newest_version_date |  2020.10.09 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | java |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/bbmap_38.70 |
@@ -119,6 +135,7 @@
 | install_2| bar-server |
 | install_2_dir | /opt/soft/bbmap_38.67 |
 | install_2_admin | darked |
+
 ### installation
 
 ```
@@ -193,9 +210,11 @@ GCAGCCTG
 | repo | https://github.com/igvteam/igv |
 | lang | java |
 | obtained_from | https://data.broadinstitute.org/igv/projects/downloads/2.6/IGV_Linux_2.6.3.zip |
-| version | 2.6.3 |
-| version_date | 2019.08.23  |
-| last_ver_check | 2019.08.30 |
+| installed_version | 2.6.3 |
+| installed_version_date | 2019.08.23 |
+| newest_version | 2.8.13 |
+| newest_version_date |  2020.11.18 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | java |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/igv_2.6.3 |
@@ -215,9 +234,11 @@ GCAGCCTG
 | repo | https://github.com/s-andrews/FastQC |
 | lang | java/ |
 | obtained_from | http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.8.zip |
-| version | 0.11.8 |
-| version_date |   2018.10.04  |
-| last_ver_check | 2019.09.12 |
+| installed_version |  0.11.8 |
+| installed_version_date | 2018.10.04 |
+| newest_version | 0.11.9 |
+| newest_version_date |  2020.01.08 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | java |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/fastqc_0.11.8 |
@@ -238,9 +259,11 @@ GCAGCCTG
 | lang_1 | java |
 | lang_2 | R |
 | obtained_from | https://github.com/hartleys/QoRTs/archive/v1.3.6.tar.gz |
-| version | 1.3.6 |
-| version_date |  2019.03.26  |
-| last_ver_check | 2019.09.12 |
+| installed_version | 1.3.6 |
+| installed_version_date | 2019.03.26 |
+| newest_version | 1.3.6 |
+| newest_version_date |  see above |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | java (put versions) |
 | requirements_2 | R (put versions) |
 | install_1 | foo-server|
@@ -276,10 +299,12 @@ java -jar /opt/soft/qorts_1.3.6/QoRTs.jar --man QC
 | repo | https://github.com/ewels/MultiQC |
 | lang | python |
 | obtained_from | pip  |
-| version | 1.7 |
-| version_date |  2018.12.21 |
-| last_ver_check | 2019.06.24 |
-| requirements_1 | pip |
+| installed_version | 1.7 |
+| installed_version_date | 2018.12.21 |
+| newest_version | 1.9 |
+| newest_version_date |  2020.05.30 |
+| last_ver_check | 2020.12.29 |
+| requirements_1 | pip / python 3 for 1.9
 | install_1| foo-server|
 | install_1_dir | /usr/local/bin/multiqc |
 
@@ -309,9 +334,11 @@ multiqc .
 | repo | https://github.com/arq5x/bedtools2 |
 | lang | C++ |
 | obtained_from | https://github.com/arq5x/bedtools2/releases/download/v2.28.0/bedtools-2.28.0.tar.gz |
-| version | 2.29.0 |
-| version_date |  2019.09.03 |
-| last_ver_check | 2019.09.09 |
+| installed_version | 2.29.0 |
+| installed_version_date | 2019.09.03 |
+| newest_version | 2.29.2 |
+| newest_version_date |  2019.12.17 |
+| last_ver_check | 2020.12.29 |
 | requirements_1 | g++ /?? |
 | docs | https://bedtools.readthedocs.io/en/latest/ |
 | tutorial | http://quinlanlab.org/tutorials/bedtools/bedtools.html |
