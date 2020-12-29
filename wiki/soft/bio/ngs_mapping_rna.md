@@ -28,8 +28,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6192213/
 | lang | C |
 | obtained_from | https://github.com/alexdobin/STAR/archive/2.7.3a.tar.gz |
 | version | 2.7.3a |
-| version_date |  2019.10.08 |
-| last_ver_check | 2019.10.11 |
+| newest_version | 2.7.7a|
+| newest_version_date |  2020.12.28 |
+| last_ver_check |2020.12.29 |
 | activity_main | active |
 | activity_dev| no dev branch!  |
 | issues_github | active |
@@ -100,9 +101,11 @@ samtools sort -@12 -o cbrako-fix089_PT_0_7.rna.mrgd_4.clump.star_hg38.r12.bam
 | repo | none |
 | lang | C |
 | obtained_from | http://research-pub.gene.com/gmap/src/gmap-gsnap-2019-09-12.tar.gz |
-| version | 2019-09-12 |
-| version_date |  2019.09.12 |
-| last_ver_check | 2019.10.11 |
+| installed_version | 2019-09-12 |
+| installed_version_date |  2019.09.12 |
+| newest_version | 2020-12-17 |
+| newest_version_date |  2020-12-17 |
+| last_ver_check | 2020.12.29 |
 | activity_main | active |
 | activity_dev| no repo  |
 | issues_github | no github |
@@ -155,12 +158,14 @@ gmap_20190610/bin/gmap_build -d hg38p13gmap /opt/genome/hg38/GCA_000001405.15_GR
 | citations_num | 891 (2019.10.11) |
 | first_release_year | 2017? |
 | www | https://combine-lab.github.io/salmon/  |
-| repo | none |
+| repo |https://github.com/COMBINE-lab/salmon |
 | lang | C++ |
 | obtained_from |  https://github.com/COMBINE-lab/salmon/releases/download/v0.14.2/salmon_0.14.2_linux_x86_64.tar.gz |
-| version | 0.14.2 |
-| version_date |  2019.10.05 |
-| last_ver_check | 2019.10.11 |
+| installed_version | 0.14.2 |
+| installed_version_date |  2019.10.05 |
+| newest_version | 1.4.0 |
+| newest_version_date |  2020.11.26 |
+| last_ver_check | 2020.12.29 |
 | activity_main | active |
 | activity_dev| active  |
 | issues_github | active |
@@ -181,11 +186,13 @@ gmap_20190610/bin/gmap_build -d hg38p13gmap /opt/genome/hg38/GCA_000001405.15_GR
 | repo | none |
 | lang | C |
 | obtained_from |  https://sourceforge.net/projects/subread/files/subread-2.0.0/subread-2.0.0-source.tar.gz/download |
-| version | 2.0.0 |
-| version_date |  2019.09.04 |
-| last_ver_check | 2019.10.25 |
+| installed_version | 2.0.0 |
+| installed_version_date |  2019.09.04 |
+| newest_version | 2.0.1 |
+| newest_version_date |  2020.05.13 |
+| last_ver_check | 2020.12.29 |
 | activity_main | sourceforge... |
-| activity_dev| no gitgub  |
+| activity_dev| no github  |
 | issues_github | no github |
 | documentation_1 | http://bioinf.wehi.edu.au/subread/ |
 | documentation_2 |  http://subread.sourceforge.net/ |
