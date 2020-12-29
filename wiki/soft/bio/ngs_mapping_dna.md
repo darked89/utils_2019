@@ -35,8 +35,30 @@
 | install_1_dir | /usr/local/bin/ |
 | install_1_admin | darked | 
 
-|
-
+## bwa-mem2
+| Property | value |
+| ------ | ------ |
+| prog_name | bwa-mem2 |
+| publication | XXX |
+| citations_num | XXX |
+| first_release_year | XXX |
+| www | XXX  |
+| repo | https://github.com/bwa-mem2/bwa-mem2 |
+| lang | XXX |
+| obtained_from | https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.1/bwa-mem2-2.1_x64-linux.tar.bz2 |
+| version | 2.1 |
+| version_date |  2020.10.15 |
+| last_ver_check | 2020.12.29 |
+| activity_main | active  |
+| activity_dev |  |
+| issues_github | active |
+| requirements_1 | ??  |
+| requirements_2 | ?? |
+| tutorial | ?? |
+| test_data| ?? |
+| install_1| foo-server|
+| install_1_dir | /usr/local/bin/ |
+| install_1_admin | darked | 
 
 ## gem3 
 
@@ -52,8 +74,8 @@
 | obtained_from | https://github.com/smarco/gem3-mapper |
 | version | >3.6.1 (git) |
 | version_date |  2019.05.24 |
-| last_ver_check | 2019.05.24 |
-| activity_main | active  |
+| last_ver_check | 2020.12.29 |
+| activity_main | active???  |
 | activity_dev|  active |
 | issues_github | active |
 | requirements_1 | CUDA for GPU  |
@@ -80,9 +102,11 @@
 | repo | http://last.cbrc.jp/last/  |
 | lang | C |
 | obtained_from | http://last.cbrc.jp/ |
-| version | 992 |
-| version_date |  2019.10.09 |
-| last_ver_check | 2019.10.31 |
+| installed_version | 992 |
+| installed_version_date |  2019.10.09 |
+| newest_version | 1170 |
+| newest_version_date |  2020.12.28 |
+| last_ver_check | 2020.12.29 |
 | activity_main | active  |
 | activity_dev|  ? |
 | issues_github | not on github |
@@ -132,9 +156,11 @@ Needs to be fixed
 | repo | https://github.com/BenLangmead/bowtie2  |
 | lang | C++ |
 | obtained_from | https://github.com/BenLangmead/bowtie2/releases/download/v2.3.5.1/bowtie2-2.3.5.1-linux-x86_64.zip |
-| version | 2.3.5.1 |
-| version_date |  2019.04.17 |
-| last_ver_check | 2019.10.31 |
+| installed_version | 2.3.5.1 |
+| installed_version_date |  2019.04.17 |
+| newest_version | 2.4.2 |
+| newest_version_date |  2020.10.06 |
+| last_ver_check | 2020.12.29 |
 | activity_main | active  |
 | activity_dev|  ? |
 | issues_github | active |
@@ -160,9 +186,11 @@ Needs to be fixed
 | repo | https://github.com/BenLangmead/bowtie2  |
 | lang | C++ |
 | obtained_from | http://www.novocraft.com/support/download/ |
-| version | 3.09.04 |
-| version_date |  2019.10.04 |
-| last_ver_check | 2019.10.31 |
+| installed_version | 3.09.04 |
+| installed_version_date |  2019.10.04 |
+| newest_version |4.03.02 |
+| newest_version_date |  2020.11.24? |
+| last_ver_check | 2020.12.29 |
 | activity_main | active  |
 | activity_dev|  no github |
 | issues_github | no_gitgum |
