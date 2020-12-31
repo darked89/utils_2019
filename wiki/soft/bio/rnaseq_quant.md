@@ -188,20 +188,36 @@ RNA-seq data](https://hal.archives-ouvertes.fr/hal-01716704v2/document)
 
 
 # to install/evaluate
+
+## featureCounts from Subread package 
+
+* http://bioinf.wehi.edu.au/featureCounts/
+
+## kalisto
+
+
+```
+NL Bray, H Pimentel, P Melsted and L Pachter, Near optimal probabilistic RNA-seq quantification, Nature Biotechnology 34, p 525--527 (2016).
+
+kallisto quantified bulk RNA-Seq can be analyzed with sleuth.
+
+kallisto can be used together with bustools to pre-process single-cell RNA-seq data. See the kallistobus.tools website for instructions.
+
+```
+
+## sleuth
+
+* https://github.com/pachterlab/sleuth
+
+
+
+## todo
+
 ```
 #stringtie
 https://ccb.jhu.edu/software/stringtie/
 
-# feature counts from subread
 
-featureCounts from subread
-
-# kallisto (aligment semi-free quantification)
-https://github.com/pachterlab/kallisto
-
-# sleuth
-
-https://github.com/pachterlab/sleuth
 
 
 # try limma + voom
