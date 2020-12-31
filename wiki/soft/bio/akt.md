@@ -1,4 +1,7 @@
-## act
+# Ancestry &  and Kinship Tools (stub)
+
+
+## act (Illumina)
 
 https://github.com/Illumina/akt
 
