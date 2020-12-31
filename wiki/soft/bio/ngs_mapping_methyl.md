@@ -14,10 +14,12 @@
 | repo | https://github.com/FelixKrueger/Bismark |
 | lang | perl |
 | obtained_from | https://github.com/FelixKrueger/Bismark/archive/0.22.1.tar.gz |
-| version | 0.22.1 |
-| version_date |  2019.04.21 |
-| last_ver_check | 2019.05.17 |
-| activity_main | active (release 2019.04+) |
+| installed_version |  0.22.1 |
+| installed_version_date |  2019.04.21 |
+| newest_version | 0.23.0 |
+| newest_version_date |  2020.11.09   |
+| last_ver_check | 2020.12.31 |
+| activity_main | active |
 | activity_dev| no dev branch!  |
 | issues_github | active |
 | requirements_1 | Bowtie2 or HISAT2  |
