@@ -16,9 +16,11 @@
 | paper| https://genome.cshlp.org/content/27/12/2050.full |
 | citations_num | 20 (from 2017)|
 | obtained_from |https://github.com/PapenfussLab/gridss/releases |
-| version | 2.6.3 |
-| version_date |  2019.10.21 |
-| last_ver_check | 2019.10.28 |
+| installed_version | 2.6.3 |
+| installed_version_date |  2017.10.21 |
+| newest_version | 2.10.2 |
+| newest_version_date |  2020.12.10  |
+| last_ver_check | 2020.12.31 |
 | activity_main | active |
 | activity_dev| active |
 | issues_github | active |
@@ -153,10 +155,12 @@ simple-event-annotation_20190520a.R
 | lang_1 | C++ |
 | lang_2 | python |
 | obtained_from | https://github.com/Illumina/manta/releases/download/v1.6.0/manta-1.6.0.release_src.tar.bz2 |
-| version | 1.6.0 |
-| version_date |   2019.06.25  |
-| last_ver_check | 2019.07.30 |
-| activity_main | active (release 2019.06) |
+| installed_version | 1.6.0 |
+| installed_version_date |   2019.06.25 |
+| newest_version | same as above |
+| newest_version_date | same as above  |
+| last_ver_check | 2020.12.31 |
+| activity_main | active? |
 | activity_dev| ??  |
 | issues_github | active |
 | requirements_1 | python 2.7  |
@@ -202,13 +206,15 @@ end
 | citations_num | 338 (2019.04.25) |
 | first_release_year | 2012 |
 | www | http://boevalab.com/FREEC/index.html |
-| repo |https://github.com/BoevaLab/FREEC |
+| repo | https://github.com/BoevaLab/FREEC |
 | lang | c++|
 | obtained_from | https://github.com/BoevaLab/FREEC/archive/v11.5.tar.gz |
-| version | 11.5 |
-| version_date |  2018.08.05 |
-| last_ver_check | 2019.04.15 |
-| activity_main | inactive ~1year |
+| installed_version | 11.5 |
+| installed_version_date |  2018.08.05 |
+| newest_version | 11.6 |
+| newest_version_date | 2020.05.29  |
+| last_ver_check | 2020.12.31 |
+| activity_main | active? |
 | activity_dev| no dev branch!  |
 | issues_github | lethargic (last in Dec 2018, 20 issues open) |
 | tutorial| http://boevalab.com/FREEC/tutorial.html|
@@ -256,49 +262,6 @@ cat ~/soft/freec_current/scripts/assess_significance.R | R --slave --args ERR206
 ```
 
 
-## SVE 
-
-| Property | value |
-| ------ | ------ |
-| prog_name | SVE /FusorSV |
-| publication | https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1404-6 |
-| citation_num | 1 (from 2018.03.20) check: 2019.05.08 |
-| obtained_from | https://github.com/TheJacksonLaboratory/SVE |
-| version |  0.1.0 |
-| version_date |  2017.12.17 |
-| last_ver_check | 2019.05.08 |
-| activity_main | stalled |
-| activity_dev| active (multiple commits, last ones2019.04.+)  |
-| issues_github | active |
-| install_1| foo-server|
-| install_1_path| /opt/soft/SVE |
-
-## Requirements
-```
-python 2.7
-HTSeq  
-numpy 
-scipy 
-subprocess32 
-bx-python 
-CrossMap 
-mygene
-gcc 4.8 
-cmake >=3.0 
-Root  https://root.cern.ch/
-
-R 3.3 or greater. You may type "make R-install" to install R-3.3.3.
-```
-
-| Name | SVE default | SVE foo-server | Current version | Comments | Repo|
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| BreakDancer | 1.4.5 | 1.4.5 | 1.4.5 | no updates? | https://github.com/genome/breakdancer  |
-| BreakSeq | | | 2.2 | Nov 2015? | repo: https://github.com/bioinform/breakseq2 |
-| cnMOPS | 1.24.0 | | 1.30.0 | R package. ver date unknown??  | http://www.bioinf.jku.at/software/cnmops/cnmops.html |
-| CNVnator | |0.3.3 | 0.4.1 | update Aug 2019 | https://github.com/abyzovlab/CNVnator | 
-| DELLY | | 0.8.1 | 0.8.1 | update Apr 2019 | https://github.com/dellytools/delly |
-| Hydra  | | | | no updates for 4 years | https://github.com/arq5x/Hydra | 
-| LUMPY | 0.2.13 | 0.2.13 | 0.3.0 | updated Apr 2019 | https://github.com/arq5x/lumpy-sv | 
 
 
 
@@ -346,10 +309,12 @@ repo: https://github.com/walaj/svaba
 | www | ??? |
 | repo | https://github.com/Illumina/strelka/ |
 | obtained_from | https://github.com/Illumina/strelka/releases/download/v2.9.10/strelka-2.9.10.release_src.tar.bz2 |
-| version | 2.9.10 |
-| version_date |  2018.11.08 |
-| last_ver_check | 2019.11.14 |
-| activity_main | slow ( Feb 2019) |
+| installed_version | 2.9.10 |
+| installed_version_date |   2018.11.08 |
+| newest_version | same as above |
+| newest_version_date | same as above  |
+| last_ver_check | 2020.12.31 |
+| activity_main | not active? |
 | activity_dev| none |
 | issues_github | active |
 | lang_1 | c++ |
@@ -361,7 +326,7 @@ repo: https://github.com/walaj/svaba
 | install_1_admin | darked |
 | install_1_date | 2019.10.29 |
 
-### status: untested
+
 ## svtools
 
 Tools for processing and analyzing structural variants
@@ -397,3 +362,52 @@ https://github.com/kevlar-dev/kevlar
 * https://www.nature.com/articles/s41467-019-09027-x
 
 * https://github.com/bioinform/neusomatic
+
+
+
+# abandon
+
+## SVE 
+
+| Property | value |
+| ------ | ------ |
+| prog_name | SVE /FusorSV |
+| publication | https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1404-6 |
+| citation_num | 1 (from 2018.03.20) check: 2019.05.08 |
+| obtained_from | https://github.com/TheJacksonLaboratory/SVE |
+| version |  0.1.0 |
+| version_date |  2017.12.17 |
+| last_ver_check | 2019.05.08 |
+| activity_main | stalled |
+| activity_dev| active (multiple commits, last ones2019.04.+)  |
+| issues_github | active |
+| install_1| foo-server|
+| install_1_path| /opt/soft/SVE |
+
+## Requirements
+```
+python 2.7
+HTSeq  
+numpy 
+scipy 
+subprocess32 
+bx-python 
+CrossMap 
+mygene
+gcc 4.8 
+cmake >=3.0 
+Root  https://root.cern.ch/
+
+R 3.3 or greater. You may type "make R-install" to install R-3.3.3.
+```
+
+| Name | SVE default | SVE foo-server | Current version | Comments | Repo|
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| BreakDancer | 1.4.5 | 1.4.5 | 1.4.5 | no updates? | https://github.com/genome/breakdancer  |
+| BreakSeq | | | 2.2 | Nov 2015? | repo: https://github.com/bioinform/breakseq2 |
+| cnMOPS | 1.24.0 | | 1.30.0 | R package. ver date unknown??  | http://www.bioinf.jku.at/software/cnmops/cnmops.html |
+| CNVnator | |0.3.3 | 0.4.1 | update Aug 2019 | https://github.com/abyzovlab/CNVnator | 
+| DELLY | | 0.8.1 | 0.8.1 | update Apr 2019 | https://github.com/dellytools/delly |
+| Hydra  | | | | no updates for 4 years | https://github.com/arq5x/Hydra | 
+| LUMPY | 0.2.13 | 0.2.13 | 0.3.0 | updated Apr 2019 | https://github.com/arq5x/lumpy-sv | 
+
