@@ -384,11 +384,9 @@ make
 make test
 ```
 
+#### note
 
-
-
-
-
+Not developed since 2016
 
 
 
@@ -464,14 +462,14 @@ https://github.com/ngsutils/ngsutils
 | repo |  https://github.com/bedops/bedops |
 | lang | C++ |
 | obtained_from | https://github.com/bedops/bedops/releases/download/v2.4.36/bedops_linux_x86_64-v2.4.36.tar.bz2 |
-| version | 2.4.37 |
-| version_date | 2019.05.02 |
-| last_ver_check | 2019.10.28 |
-
+| installed_version | 2.4.37 |
+| installed_version_date |  2019.05.02 |
+| newest_version | 2.4.39 |
+| newest_version_date | 2020.04.07   |
+| last_ver_check | 2020.12.31 |
 | install_1| foo-server |
 | install_1_dir | /opt/soft/bedops_2.4.37/ |
 | install_1_admin | darked |
-
 | install_2 | bar-server |
 | install_2_dir | /opt/soft/bedops_2.4.36/ |
 | install_2_admin | darked |
@@ -574,9 +572,11 @@ end
 | repo | https://github.com/brentp/vcfanno |
 | lang | Go |
 | obtained_from | https://github.com/brentp/vcfanno/releases/download/v0.3.1/vcfanno_linux64 |
-| version | 0.3.1 |
-| version_date |  2018.10.29 |
-| last_ver_check | 2019.06.17 |
+| installed_version | 0.3.1 |
+| installed_version_date |  2018.10.29  |
+| newest_version | 0.3.2 |
+| newest_version_date |  2019.07.30 |
+| last_ver_check | 2020.12.31 |
 | requirements_1 | ?? Lua ?? |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/vcfanno_0.3.1 |
@@ -599,9 +599,11 @@ vcfanno allows you to quickly annotate your VCF with any number of INFO fields f
 | repo | https://github.com/gmarcais/Jellyfish |
 | lang | C++ |
 | obtained_from | https://github.com/gmarcais/Jellyfish/releases/download/v2.2.10/jellyfish-2.2.10.tar.gz |
-| version | 2.2.10 |
-| version_date |  2018.05.01 |
-| last_ver_check | 2019.06.24 |
+| installed_version | 2.2.10 |
+| installed_version_date | 2018.05.01 |
+| newest_version | 2.3.0 |
+| newest_version_date |  2019.07.13 |
+| last_ver_check | 2020.12.31 |
 | requirements_1 | ?? |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/jellyfish_2.2.10 |
@@ -641,9 +643,11 @@ ncbi SRA Tools: https://github.com/ncbi/sra-tools
 | repo |  https://github.com/ncbi/sra-tools |
 | lang | C++ |
 | obtained_from | https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.10.7/sratoolkit.2.10.7-ubuntu64.tar.gz |
-| version | 2.10.7 |
-| version_date |  2020.05.27 |
-| last_ver_check | 2020.06.16 |
+| installed_version | 2.10.7 |
+| installed_version_date | 2020.05.27 |
+| newest_version | 2.10.9 |
+| newest_version_date |  2020.12.16 |
+| last_ver_check | 2020.12.31 |
 | requirements_1 | ?? |
 | install_1 | vagrant_deb_buster|
 | install_1_dir |  |
