@@ -21,9 +21,11 @@
 | repo | https://github.com/lh3/bwa |
 | lang | C |
 | obtained_from | https://github.com/lh3/bwa/archive/v0.7.17.tar.gz |
-| version | 0.7.17-r1188 |
-| version_date |  2017.10.23 |
-| last_ver_check | 2019.05.22 |
+| installed_version | 0.7.17-r1188 |
+| installed_version_date |  2017.10.23 |
+| newest_version | same as above |
+| newest_version_date | same as above  |
+| last_ver_check | 2020.12.29 |
 | activity_main | active  |
 | activity_dev|  |
 | issues_github | active |
@@ -36,6 +38,7 @@
 | install_1_admin | darked | 
 
 ## bwa-mem2
+
 | Property | value |
 | ------ | ------ |
 | prog_name | bwa-mem2 |
@@ -46,8 +49,10 @@
 | repo | https://github.com/bwa-mem2/bwa-mem2 |
 | lang | XXX |
 | obtained_from | https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.1/bwa-mem2-2.1_x64-linux.tar.bz2 |
-| version | 2.1 |
-| version_date |  2020.10.15 |
+| installed_version | 2.1 |
+| installed_version_date |  2020.10.15 |
+| newest_version | same as above |
+| newest_version_date | same as above  |
 | last_ver_check | 2020.12.29 |
 | activity_main | active  |
 | activity_dev |  |
@@ -72,8 +77,10 @@
 | repo | https://github.com/smarco/gem3-mapper |
 | lang | C |
 | obtained_from | https://github.com/smarco/gem3-mapper |
-| version | >3.6.1 (git) |
-| version_date |  2019.05.24 |
+| installed_version | >3.6.1 (git) |
+| installed_version_date |  2019.05.24 |
+| newest_version | same as above? |
+| newest_version_date |  ??? |
 | last_ver_check | 2020.12.29 |
 | activity_main | active???  |
 | activity_dev|  active |
