@@ -14,6 +14,11 @@
 | version | 3.4.2-1 |
 | version_date |  2019.10.15 |
 | last_ver_check | 2019.10.22 |
+| installed_version | 3.4.2-1 |
+| installed_version_date |  2019.10.15 |
+| newest_version | 3.7.1 |
+| newest_version_date | 2021.01.12 |
+| last_ver_check |  2021.01.12 |
 | activity_main | active  |
 | activity_dev| multiple branches, active |
 | issues_github | active |
