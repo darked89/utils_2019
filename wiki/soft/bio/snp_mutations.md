@@ -50,9 +50,9 @@
 | obtained_from | git clone --recursive git://github.com/ekg/freebayes.git |
 | version | 1.3.1-17-gaa2ace8 |
 | version_date |  2019.06.03 | 
-| last_version | 1.3.3 |
-| last_version_date | 2020.12.13 |
-| last_ver_check | 2020.12.13 |
+| last_version | 1.3.4 |
+| last_version_date | 2021.02.29 |
+| last_ver_check | 2021.01.29 |
 | requirements | python |
 | documentation | https://github.com/ekg/freebayes/blob/master/README.md |
 | input_requirement | **RG in BAM files** |
@@ -151,6 +151,7 @@ python /opt/platypus/Platypus.py callVariants
 | install_1_dir | /opt/soft/octopus_201005 |
 | install_1 admin| darked |
 
+0.7.0 new version 2020.09.22
 
 #### requirements from the github page
 
