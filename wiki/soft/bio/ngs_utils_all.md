@@ -336,9 +336,9 @@ multiqc .
 | obtained_from | https://github.com/arq5x/bedtools2/releases/download/v2.28.0/bedtools-2.28.0.tar.gz |
 | installed_version | 2.29.0 |
 | installed_version_date | 2019.09.03 |
-| newest_version | 2.29.2 |
-| newest_version_date |  2019.12.17 |
-| last_ver_check | 2020.12.29 |
+| newest_version | 2.30.0 |
+| newest_version_date |  2021.01.23 |
+| last_ver_check | 2021.02.07 |
 | requirements_1 | g++ /?? |
 | docs | https://bedtools.readthedocs.io/en/latest/ |
 | tutorial | http://quinlanlab.org/tutorials/bedtools/bedtools.html |
