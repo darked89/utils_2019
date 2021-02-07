@@ -125,9 +125,9 @@ As of 2020.12 at least in some common tasks not faster than samtools with the sa
 | obtained_from | https://sourceforge.net/projects/bbmap/files/ |
 | installed_version | 38.71 |
 | installed_version_date |  2019.10.30  |
-| newest_version | 38.87 |
-| newest_version_date |  2020.10.09 |
-| last_ver_check | 2020.12.29 |
+| newest_version | 38.90 |
+| newest_version_date | 2021.02.03 |
+| last_ver_check | 2021.02.07 |
 | requirements_1 | java |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/bbmap_38.70 |
