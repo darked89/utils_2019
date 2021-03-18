@@ -140,10 +140,12 @@ python /opt/platypus/Platypus.py callVariants
 | www |   https://github.com/luntergroup/octopus |
 | repo | https://github.com/luntergroup/octopus  |
 | lang_1 | C++ |
-| obtained_from | reo above   |
+| obtained_from | repo above   |
 | version | 0.6.3 beta |
 | version_date |  2019.03.21 |
-| last_ver_check | 2019.10.06 |
+| last_version | 0.7.1 |
+| last_version_date | 2021.03.03 |
+| last_ver_check | 2021.03.18 |
 | requirements | ??? |
 | documentation | https://github.com/luntergroup/octopus |
 | input_requirement | **RG in BAM files** |
