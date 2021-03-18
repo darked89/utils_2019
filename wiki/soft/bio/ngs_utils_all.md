@@ -35,9 +35,9 @@
 | obtained_from | https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 |
 | installed_version | 1.9 |
 | installed_version_date | 2018.07.18 |
-| newest_version | 1.11 |
-| newest_version_date |  2020.09.22 |
-| last_ver_check | 2020.12.29 |
+| newest_version | 1.12 |
+| newest_version_date |  2021.03.17 |
+| last_ver_check | 2021.03.18 |
 | requirements_1 | cc/gcc |
 | install_1| foo-server|
 | install_1_dir | /usr/local/bin/samtools |
