@@ -103,9 +103,9 @@ samtools sort -@12 -o cbrako-fix089_PT_0_7.rna.mrgd_4.clump.star_hg38.r12.bam
 | obtained_from | http://research-pub.gene.com/gmap/src/gmap-gsnap-2019-09-12.tar.gz |
 | installed_version | 2019-09-12 |
 | installed_version_date |  2019.09.12 |
-| newest_version | 2020-12-17 |
-| newest_version_date |  2020-12-17 |
-| last_ver_check | 2020.12.29 |
+| newest_version |  2021-03-08  |
+| newest_version_date |   2021-03-08  |
+| last_ver_check |  2021-03-18  |
 | activity_main | active |
 | activity_dev| no repo  |
 | issues_github | no github |
