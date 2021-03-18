@@ -212,9 +212,9 @@ GCAGCCTG
 | obtained_from | https://data.broadinstitute.org/igv/projects/downloads/2.6/IGV_Linux_2.6.3.zip |
 | installed_version | 2.6.3 |
 | installed_version_date | 2019.08.23 |
-| newest_version | 2.9.0 |
-| newest_version_date |  2021.02.01 |
-| last_ver_check | 2021.02.07 |
+| newest_version | 2.9.4 |
+| newest_version_date |  2021.03.17 |
+| last_ver_check | 2021.03.18 |
 | requirements_1 | java |
 | install_1| foo-server|
 | install_1_dir | /opt/soft/igv_2.6.3 |
