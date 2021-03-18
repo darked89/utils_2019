@@ -28,9 +28,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6192213/
 | lang | C |
 | obtained_from | https://github.com/alexdobin/STAR/archive/2.7.3a.tar.gz |
 | version | 2.7.3a |
-| newest_version | 2.7.7a|
-| newest_version_date |  2020.12.28 |
-| last_ver_check |2020.12.29 |
+| newest_version | 2.7.8a|
+| newest_version_date |  2021.02.20 |
+| last_ver_check | 2021.03.18 |
 | activity_main | active |
 | activity_dev| no dev branch!  |
 | issues_github | active |
