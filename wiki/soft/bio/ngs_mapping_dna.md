@@ -107,14 +107,15 @@
 | citations_num | >513 (2019.05.2) |
 | first_release_year | 2011 |
 | www |  http://last.cbrc.jp/  |
-| repo | http://last.cbrc.jp/last/  |
+| repo_old | http://last.cbrc.jp/last/  |
+| repo | https://gitlab.com/mcfrith/last |
 | lang | C |
 | obtained_from | http://last.cbrc.jp/ |
 | installed_version | 992 |
 | installed_version_date |  2019.10.09 |
-| newest_version | 1170 |
-| newest_version_date |  2020.12.28 |
-| last_ver_check | 2020.12.29 |
+| newest_version | 1200 |
+| newest_version_date |  2021.03.03 |
+| last_ver_check | 2021.03.18 |
 | activity_main | active  |
 | activity_dev|  ? |
 | issues_github | not on github |
