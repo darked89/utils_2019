@@ -2,6 +2,7 @@
 
 - essential
     - [bwa](#bwa)
+    - [bwa-mem2](#bwa-mem2)
 - accessory
     - [gem3](#gem3)
     - [last](#last)
@@ -51,9 +52,9 @@
 | obtained_from | https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.1/bwa-mem2-2.1_x64-linux.tar.bz2 |
 | installed_version | 2.1 |
 | installed_version_date |  2020.10.15 |
-| newest_version | same as above |
-| newest_version_date | same as above  |
-| last_ver_check | 2020.12.29 |
+| newest_version | 2.2.1 |
+| newest_version_date | 2021.03.17  |
+| last_ver_check | 2021.03.18 |
 | activity_main | active  |
 | activity_dev |  |
 | issues_github | active |
