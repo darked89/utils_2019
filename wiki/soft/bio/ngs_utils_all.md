@@ -66,9 +66,9 @@ Use libdeflate to build htslib first. Link: https://github.com/ebiggers/libdefla
 | obtained_from | https://github.com/broadinstitute/picard/releases/download/2.21.2/picard.jar |
 | installed_version | 2.21.2 |
 | installed_version_date | 2019.10.29  |
-| newest_version | 2.24.2 |
-| newest_version_date |  2021.02.03 |
-| last_ver_check | 2021.012.07 |
+| newest_version | 2.25.0 |
+| newest_version_date |  2021.02.10 |
+| last_ver_check | 2021.03.18 |
 | requirements_1 | java 1.8 |
 | documentation | http://broadinstitute.github.io/picard/ |
 | install_1| foo-server|
