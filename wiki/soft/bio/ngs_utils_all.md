@@ -10,7 +10,7 @@
         - [IGV](#igv)
     - quality checkers
         - [FastQC](#fastqc)
-        - [multiqc](#multiqc)
+        - [MultiQC](#multiqc)
         - [QoRTs](#qorts)
     - BED/BAM etc. utils
         - [bedtools](#bedtools)
@@ -287,7 +287,7 @@ java -jar /opt/soft/qorts_1.3.6/QoRTs.jar --man QC
 ```
 
 
-### multiqc 
+### MultiQC 
 
 | Property | value |
 | ------ | ------ |
@@ -301,9 +301,9 @@ java -jar /opt/soft/qorts_1.3.6/QoRTs.jar --man QC
 | obtained_from | pip  |
 | installed_version | 1.7 |
 | installed_version_date | 2018.12.21 |
-| newest_version | 1.9 |
-| newest_version_date |  2020.05.30 |
-| last_ver_check | 2020.12.29 |
+| newest_version | 1.10 |
+| newest_version_date |  2021.03.08 |
+| last_ver_check | 2021.03.18 |
 | requirements_1 | pip / python 3 for 1.9
 | install_1| foo-server|
 | install_1_dir | /usr/local/bin/multiqc |
