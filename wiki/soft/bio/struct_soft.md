@@ -18,9 +18,9 @@
 | obtained_from |https://github.com/PapenfussLab/gridss/releases |
 | installed_version | 2.6.3 |
 | installed_version_date |  2017.10.21 |
-| newest_version | 2.10.2 |
-| newest_version_date |  2020.12.10  |
-| last_ver_check | 2020.12.31 |
+| newest_version | 2.11 |
+| newest_version_date |  2021.03.17  |
+| last_ver_check | 2021.03.18 |
 | activity_main | active |
 | activity_dev| active |
 | issues_github | active |
